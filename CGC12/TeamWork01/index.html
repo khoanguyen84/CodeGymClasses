@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="site.css">
+        <script src="matrix.js"></script>
+    </head>
+
+    <body>
+        <table>
+            <tr>
+                <td style="width: 30%; vertical-align: top;">
+                    <table>
+                        <tr>
+                            <td>Row Number</td>
+                            <td>
+                                <input type="text" id="rowNum" />
+                                <span id="spRowMessage"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Column Number</td>
+                            <td>
+                                <input type="text" id="colNum" />
+                                <span id="spColMessage"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">
+                                <input type="button" value="Create Matrix" onclick="Main();">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td style="width: 70%;">
+                    <table>
+                        <tr>
+                            <td>
+                                Matrix created
+                                <table id="tbMatrix1">
+
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Claim Values
+                                <table id="tbMatrix3">
+                                    <tr>
+                                        <td style="width: 20%;">Maximum value:</td>
+                                        <td id="maxValue"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Minimun value:</td>
+                                        <td id="minValue"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Total of odd:</td>
+                                        <td id="totalOdd"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Total of prime:</td>
+                                        <td id="totalPrime"></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Matrix after sorted
+                                <table id="tbMatrix2">
+
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/site.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <select class="form-group" id="drink" onclick="drink.changeDrink(this)">
+                    <option value='1' data-price="5000" data-currency="VND">Cafe</option>
+                    <option value='2' data-price="6000" data-currency="VND">Coca Cola</option>
+                    <option value='3' data-price="7000" data-currency="VND">Pesi</option>
+                    <option value='4' data-price="8000" data-currency="VND">Sting</option>
+                    <option value='5' data-price="9000" data-currency="VND">Cafe Sữa</option>
+                </select>   
+            </div>
+            <div>
+                <input type="text" id="price"/>
+            </div>
+        </div>
+      </div>
+    </body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <script src="js/drink.js"></script>
+</html>
