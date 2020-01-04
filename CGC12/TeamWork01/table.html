@@ -1,0 +1,37 @@
+<html>
+    <head>
+
+        <style>
+            table, tr, td, th{
+                border: 1px solid red;
+                border-collapse: collapse;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>Họ tên</th>
+                    <th>Ngày sinh</th>
+                </tr>
+            </thead>
+            <tbody id='tbEmployee'>
+            </tbody>
+        </table>
+
+    </body>
+</html>
+<script>
+    let tbEpl = "";
+    for(let i= 0; i< 100; i++){
+        tbEpl = tbEpl + 
+            "<tr>"+
+                "<td>"+ (i+1) +"</td>"+
+                "<td> Khoa Nguyen "+ (i+1) +"</td>"+   
+                "<td> NS "+ (i+1) +"</td>"+
+            "</tr>"
+    }
+    document.getElementById("tbEmployee").innerHTML = tbEpl;
+</script>
