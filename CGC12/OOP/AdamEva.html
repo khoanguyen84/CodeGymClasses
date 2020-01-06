@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OOP Lession</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+        div{
+            float: left;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <td colspan="2">Adam(<span id="adamWeight"></span>)</td>
+                <td colspan="2">Eva(<span id="evaWeight"></span>)</td>
+            </tr>
+            <tr>
+                <td>Message</td>
+                <td>
+                    <input id="adamMessage">
+                </td>
+                <td>Message</td>
+                <td>
+                    <input id="evaMessage">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="button" value="Send" id="adamSend" onclick="SendMessage(1)">
+                    <input type="button" value="Eat" id="adamEat" onclick="EatApple(1)">
+                </td>
+                
+                <td colspan="2">
+                    <input type="button" value="Send" id="evaSend" onclick="SendMessage(2)">
+                    <input type="button" value="Eat" id="evaEat" onclick="EatApple(2)">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h3 id="apple"></h3>
+        <p id="pMessage"></p>
+    </div>
+    <script>
+        class Apple{
+            constructor(weight){
+
+                this.weight = weight;
+            }
+            decrease = function(value){
+                this.weight = this.weight - value;
+            }
+            isEmpty = function(){
+                return this.weight <=0;
+            }
+            getWeight = function(){
+                return this.weight;
+            }
+        }
+
+        class Human{
+            constructor(name, gender, weight){
+                this.weight = +weight;
+                this.name = name;
+                this.gender = gender;
+            }
+            isMale = function(){
+                return this.gender === 'Male';
+            }
+            setGender = function(sex){
+                this.gender = sex;
+            }
+            checkApple = function(apple){
+                return apple.isEmpty();
+            }
+            eatApple = function(apple, value){
+                return apple.decrease(value);
+            }
+            say = function(msg){
+                alert(this.name + ' says: '+ msg +'.')
+            }
+            getName = function(){
+                return this.name;
+            }
+            setName = function(n){
+                this.name = n;
+            }
+            getWeight = function(){
+                return this.weight;
+            }
+            setWeight = function(){
+                this.weight += 1;
+            }
+        }
+        let male = new Human('Adam', 'Male', '70');
+        let female = new Human('Eva','Female', '60');
+        let apple = new Apple(10);
+
+
+        let elementMessage = document.getElementById("pMessage");
+        let message = "";
+        let adamMessage = document.getElementById("adamMessage");
+        let evaMessage = document.getElementById("evaMessage");
+        let appleStatus = document.getElementById("apple");
+        let adamWeight = document.getElementById("adamWeight");
+        let evaWeight = document.getElementById("evaWeight");
+        adamWeight.innerHTML = male.getWeight() + "kg";
+        evaWeight.innerHTML = female.getWeight() + "kg";
+
+        function SendMessage(id){
+            let messageText = id == 1 ? adamMessage.value : evaMessage.value;
+            let obj = id == 1 ? male : female;
+            message += obj.getName() + ": \t " + messageText + "<br>";
+            elementMessage.innerHTML = message;
+            adamMessage.value = "";
+            evaMessage.value = "";
+        }
+
+        function EatApple(id){
+            debugger;
+            let obj = id == 1 ? male : female;
+            if(!apple.isEmpty()){
+                obj.eatApple(apple, 1);
+                message += obj.getName() + ": I eat one piece <br>";
+                elementMessage.innerHTML = message;
+                appleStatus.innerHTML = "Apple: I have " + apple.getWeight() + " pieces";
+                obj.setWeight();
+                adamWeight.innerHTML = male.getWeight() + "kg";
+                evaWeight.innerHTML = female.getWeight() + "kg";
+            }
+            else{
+                appleStatus.innerHTML = "Apple: I am empty now.";
+            }
+            
+        }
+    </script>
+    
+    
+</body>
+</html>
