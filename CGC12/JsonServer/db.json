@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "UserName": "Khoa Nguyễn",
+      "DOB": "24/08/1984",
+      "UserMobile": "0935216417",
+      "UserEmail": "khoa.nguyen@codegym.vn",
+      "FaceBookUrl": "https://github.com/typicode/json-server"
+    },
+    {
+      "UserName": "Ngọc Nguyễn",
+      "UserMobile": "1234567",
+      "DOB": "10/10/1997",
+      "UserEmail": "ngoc.nguyen@codegym.vn",
+      "FaceBookUrl": "https://github.com/typicode/json-server",
+      "id": 2
+    },
+    {
+      "UserName": "Khanh Lê",
+      "UserMobile": "34534534",
+      "DOB": "10/10/1991",
+      "UserEmail": "khanh.le@codegym.vn",
+      "FaceBookUrl": "https://github.com/typicode/json-server",
+      "id": 3
+    }
+  ]
+}

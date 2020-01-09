@@ -8,15 +8,20 @@ user.drawTable = function(){
         success : function(data){
             var response = data.results;
             $.each(response, function(index, value){
+                var name = value.name;
                 $('#tbUser').append(
                     "<tr>"+
-                        "<td>"+ value.userName + "</td>" +
-                        "<td>" + value.dob + "</td>" +
-                        "<td>" +  value.userMobile + "</td>" +
+                        "<td>"+ name.title + ". " + name.first + " " + name.last + "</td>" +
+                        "<td>" + value.dob.date + "</td>" +
+                        "<td>" +  value.phone + "</td>" +
+                        "<td>" +  value.phone + "</td>" +
+                        "<td>" +  value.phone + "</td>" +
+                        "<td>" +  value.phone + "</td>" +
+                        "<td>" +  value.phone + "</td>" +
                         "<td>" + 
                             "<a href='javascript:;'><i class='fa fa-user-edit'></i></a> " +
                             "<a href='javascript:;'><i class='fa fa-check-square fa-lg'></i></a> " +
-                            "<a class='btn btn-primary' href='javascript:;'><i class='fa fa-plus'></i> Create New Event</a>" +
+                            //"<a class='btn btn-primary' href='javascript:;'><i class='fa fa-plus'></i> Create New Event</a>" +
                         "</td>" +
                     "</tr>");
             });
