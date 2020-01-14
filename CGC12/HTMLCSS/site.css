@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#Student, #Student tr, #Student th, #Student td{
+    border: 1px solid blue;
+    color: green;
+    border-collapse: collapse;
+    margin-bottom: 5px;
+}
+
+.tb,.tb tr,.tb th,.tb td{
+    border: 1px solid green;
+    color: blue;
+    border-collapse: collapse;
+    margin: 0px 0px 5px 0px;
+    padding: 10px;
+}

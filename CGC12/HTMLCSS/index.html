@@ -1,0 +1,160 @@
+<html>
+    <head>
+        <style>
+            /* table{
+                border: 1px solid blue;
+                color: yellow;
+            } */
+        </style>
+        <link rel="stylesheet" href="site.css">
+    </head>
+    <body>
+        <table class="tb">
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th colspan="2">Họ và Tên</th>
+                    <th>Ngày sinh</th>
+                    <th>Quê quán</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Nguyễn</td>
+                    <td>Khoa</td>
+                    <td>01/01/2000</td>
+                    <td>TT Huế</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Nguyễn</td>
+                    <td>Khoa</td>
+                    <td>01/01/2000</td>
+                    <td>TT Huế</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="tb">
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th colspan="2">Họ và Tên</th>
+                    <th>Ngày sinh</th>
+                    <th>Quê quán</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Nguyễn</td>
+                    <td>Khoa</td>
+                    <td>01/01/2000</td>
+                    <td>TT Huế</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Nguyễn</td>
+                    <td>Khoa</td>
+                    <td>01/01/2000</td>
+                    <td>TT Huế</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table id="Student">
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th colspan="2">Họ và Tên</th>
+                    <th>Ngày sinh</th>
+                    <th>Quê quán</th>
+                </tr>
+            </thead>
+            <tbody id="tbStudent">
+                
+            </tbody>
+        </table>
+
+        <form action="LiXi" method="POST">
+            <fieldset>
+                <legend>Account Information</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label>UserName</label>
+                        </td>
+                        <td>
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Password</label>
+                        </td>
+                        <td>
+                            <input type="password">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Confirm Password</label>
+                        </td>
+                        <td>
+                            <input type="password">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Profile Information</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label>FullName</label>
+                        </td>
+                        <td>
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Gender</label>
+                        </td>
+                        <td>
+                            <select>
+                                <option value="1">Male</option>
+                                <option value="1" selected>Female</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Sports</label>
+                        </td>
+                        <td>
+                            <label><input type="checkbox" checked> Football</label>
+                            <label><input type="checkbox"> Swiming</label> 
+                            <label><input type="checkbox"> Volayball</label> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Rate</label>
+                        </td>
+                        <td>
+                            <label><input type="radio" name=rate checked> Good</label>
+                            <label><input type="radio" name=rate> Medium</label> 
+                            <label><input type="radio" name=rate> Bad</label> 
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <button type="submit">Submit</button>
+            <button type="reset">Cancel</button>
+        </form>
+
+    </body>
+    <script src="script.js"></script>
+</html>
