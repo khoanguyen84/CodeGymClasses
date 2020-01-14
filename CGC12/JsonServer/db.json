@@ -23,6 +23,22 @@
       "UserEmail": "khanh.le@codegym.vn",
       "FaceBookUrl": "https://github.com/typicode/json-server",
       "id": 3
+    },
+    {
+      "UserName": "Hoàng Phan",
+      "UserMobile": "23554",
+      "DOB": "1/1/1990",
+      "UserEmail": "hoang.phan@codegy.vn",
+      "FaceBookUrl": "https://www.google.com/",
+      "id": 4
+    },
+    {
+      "UserName": "Sơn Tùng",
+      "UserMobile": "3454645",
+      "DOB": "10/10/1999",
+      "UserEmail": "son.tung@gmail.com",
+      "FaceBookUrl": "https://www.youtube.com/",
+      "id": 5
     }
   ]
 }
