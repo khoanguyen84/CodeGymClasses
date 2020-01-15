@@ -1,0 +1,22 @@
+{
+  "Students": [
+    {
+      "id": 1,
+      "FullName": "Khoa Nguyễn",
+      "Avatar": "images/Avatar.png",
+      "DOB": "01/01/2000"
+    },
+    {
+      "FullName": "Linh Nguyễn",
+      "Avatar": "images/Avatar.png",
+      "DOB": "01/01/2000",
+      "id": 2
+    },
+    {
+      "FullName": "Nam Nguyễn",
+      "Avatar": "images/Avatar.png",
+      "DOB": "01/01/2000",
+      "id": 3
+    }
+  ]
+}
