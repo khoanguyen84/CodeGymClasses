@@ -1,0 +1,25 @@
+{
+  "Members": [
+    {
+      "id": 1,
+      "FullName": "Đông Phan",
+      "Avatar": "images/avatar.png",
+      "DOB": "05/02/1995",
+      "Address": "California USA"
+    },
+    {
+      "FullName": "Nguyễn Đỗ Nguyên",
+      "Avatar": "images/2.jpg",
+      "DOB": "05/05/1995",
+      "Address": "TT Huế",
+      "id": 2
+    },
+    {
+      "FullName": "Tiến Nguyễn",
+      "Avatar": "images/avatar.png",
+      "DOB": "07/07/1997",
+      "Address": "TT Huế",
+      "id": 3
+    }
+  ]
+}

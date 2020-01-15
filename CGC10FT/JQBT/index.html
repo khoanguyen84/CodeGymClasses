@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <link rel="stylesheet" 
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" 
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="site.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2>C10 Full time members</h2>
+
+            <a href="javascript:void(0);" class="btn btn-primary" title="Add Member" onclick="member.openModal()">
+                <i class="fa fa-plus"></i>
+                Add Member
+            </a>
+            <div class="mt-2">
+                <table class="table table-striped">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Id</th>
+                            <th>FullName</th>
+                            <th>Avatar</th>
+                            <th>DOB</th>
+                            <th>Address</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbMembers">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- The Modal -->
+        <div class="modal" id="addEditMember">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Add Member</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+            
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <form id="formAddEditMember">
+                            <input hidden name="id" id="id" value=0>
+                            <div class="row form-group">
+                                <div class="col-3">
+                                    <label>FullName</label>
+                                </div>
+                                <div class="col-9">
+                                    <input class="form-control" type="text" 
+                                    name="FullName" id="FullName"
+                                    data-rule-required = "true">
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <div class="col-3">
+                                    <label>Avatar</label>
+                                </div>
+                                <div class="col-9">
+                                    <input class="form-control" type="text" name="Avatar" id="Avatar" data-rule-required = "true">
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <div class="col-3">
+                                    <label>DOB</label>
+                                </div>
+                                <div class="col-9">
+                                    <input class="form-control" type="text" name="DOB" id="DOB" data-rule-required = "true">
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <div class="col-3">
+                                    <label>Address</label>
+                                </div>
+                                <div class="col-9">
+                                    <input class="form-control" type="text" name="Address" id="Address" data-rule-required = "true">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+            
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <a href="javascript:;" class="btn btn-primary" onclick="member.save()">Save</a>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.4.0/bootbox.min.js"></script>
+    <script src="scripts/member.js"></script>
+</html>
