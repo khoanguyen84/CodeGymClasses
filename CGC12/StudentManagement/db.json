@@ -1,22 +1,48 @@
 {
   "Students": [
     {
-      "id": 1,
-      "FullName": "Khoa Nguyễn",
+      "FullName": "Nguyễn Thị Linh",
       "Avatar": "images/Avatar.png",
-      "DOB": "01/01/2000"
-    },
-    {
-      "FullName": "Linh Nguyễn",
-      "Avatar": "images/Avatar.png",
-      "DOB": "01/01/2000",
-      "id": 2
+      "DOB": "01/01/2001",
+      "id": 2,
+      "Class": {
+        "id": "1",
+        "Name": "PHP"
+      }
     },
     {
       "FullName": "Nam Nguyễn",
       "Avatar": "images/Avatar.png",
       "DOB": "01/01/2000",
-      "id": 3
+      "id": 3,
+      "Class": {
+        "id": "1",
+        "Name": "PHP"
+      }
+    },
+    {
+      "FullName": "Khoa Nguyễn",
+      "Avatar": "images/Avatar.png",
+      "DOB": "07/07/2000",
+      "Class": {
+        "id": "3",
+        "Name": "NET CORE"
+      },
+      "id": 4
+    }
+  ],
+  "Classes": [
+    {
+      "id": "1",
+      "Name": "PHP"
+    },
+    {
+      "id": "2",
+      "Name": "JAVA"
+    },
+    {
+      "id": "3",
+      "Name": "NET CORE"
     }
   ]
 }
