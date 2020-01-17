@@ -1,8 +1,13 @@
 <html>
     <head>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <!-- <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css"> -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.15/css/dataTables.jqueryui.min.css"/>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/site.css">
+        
+  
+
     </head>
 
     <body>
@@ -16,8 +21,8 @@
             </div>
             <div class="row">
                 <div class="col-12 table-responsive">
-                    <table class="table table-hover table-striped">
-                        <thead class="thead-dark">
+                    <table id="tbUser" class="table table-hover table-striped">
+                        <thead >
                             <tr>
                                 <th>UserName</th>
                                 <th>DOB</th>
@@ -27,7 +32,7 @@
                                 <th>Actions</th>
                             </tr>
                         </thead>
-                        <tbody id="tbUser">
+                        <tbody>
 
                         </tbody>
                     </table>
@@ -102,7 +107,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script> -->
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.15/js/dataTables.jqueryui.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.4.0/bootbox.js"></script>
+    
     <script src="scripts/user.js"></script>
 </html>

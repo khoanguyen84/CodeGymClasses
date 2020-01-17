@@ -6,9 +6,9 @@ member.drawTable = function(){
         method : "GET",
         dataType : "json",
         success : function(data){
-            $('#tbMembers').empty();
+            $('#tbMembers tbody').empty();
             $.each(data, function(i, v){
-                $('#tbMembers').append(
+                $('#tbMembers tbody').append(
                     "<tr>"+
                         "<td>"+ v.id +"</td>" +
                         "<td>"+ v.FullName +"</td>" +
@@ -22,12 +22,13 @@ member.drawTable = function(){
                     "</tr>"
                 );
             });
+            $('#tbMembers').DataTable();
         }
     });
 };
 
 member.openModal = function(){
-    member.rest();
+    member.reset();
     $('#addEditMember').modal('show');
 };
 
@@ -36,9 +37,10 @@ member.save = function(){
         if($('#id').val() == 0){
             var memberObj = {};
             memberObj.FullName = $('#FullName').val();
-            memberObj.Avatar = $('#Avatar').val();
+            memberObj.Avatar = $('#Avatar').attr('src');
             memberObj.DOB = $('#DOB').val();
             memberObj.Address = $('#Address').val();
+            memberObj.CountryId = $('#Country').val();
     
             $.ajax({
                 url : "http://localhost:3000/members",
@@ -55,10 +57,11 @@ member.save = function(){
         else{
             var memberObj = {};
             memberObj.FullName = $('#FullName').val();
-            memberObj.Avatar = $('#Avatar').val();
+            memberObj.Avatar = $('#Avatar').attr('src');
             memberObj.DOB = $('#DOB').val();
             memberObj.Address = $('#Address').val();
             memberObj.id = $('#id').val();
+            memberObj.CountryId = $('#Country').val();
     
             $.ajax({
                 url : "http://localhost:3000/members/" + memberObj.id,
@@ -112,7 +115,7 @@ member.getDetail = function(id){
         dataType : "json",
         success : function(data){
             $('#FullName').val(data.FullName);
-            $('#Avatar').val(data.Avatar);
+            $('#Avatar').attr('src',data.Avatar);
             $('#DOB').val(data.DOB);
             $('#Address').val(data.Address);
             $('#id').val(data.id);
@@ -122,13 +125,24 @@ member.getDetail = function(id){
     });
 };
 
-member.rest = function(){
+member.reset = function(){
     $('#FullName').val('');
     $('#Avatar').val('');
     $('#DOB').val('');
     $('#Address').val('');
     $('#id').val(0);
 };
+
+member.uploadAvatar = function(input){
+    if (input.files && input.files[0]) {
+        var reader = new FileReader();
+        reader.onload = function (e) {
+            $('#Avatar').attr('src', e.target.result);
+            console.log(e.target.result);
+        };
+        reader.readAsDataURL(input.files[0]);
+    }
+}
 
 member.init = function(){
     member.drawTable();

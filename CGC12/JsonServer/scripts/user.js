@@ -6,9 +6,9 @@ user.drawTable = function(){
         method : 'GET',
         dataType : 'json',
         success : function(data){
-            $('#tbUser').empty();
+            $('#tbUser tbody').empty();
             $.each(data, function(index, value){
-                $('#tbUser').append(
+                $('#tbUser tbody').append(
                     "<tr>"+
                         "<td>"+ value.UserName + "</td>" +
                         "<td>" + value.DOB + "</td>" +
@@ -21,6 +21,7 @@ user.drawTable = function(){
                         "</td>" +
                     "</tr>");
             });
+            $('#tbUser').DataTable();
         }
     });
 };
