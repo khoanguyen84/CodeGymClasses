@@ -1,0 +1,42 @@
+<html>
+    <head></head>
+    <body>
+        
+        <script>
+            function enterNumber(){
+                let n = +prompt('Input number');
+                return n;
+            }
+
+            function isPrime(n){
+                if(n<2)
+                    return false;
+                
+                for(let i=2; i<=Math.sqrt(n); i++){
+                    if(n%i == 0)
+                        return false;
+                }
+
+                return true;
+            }
+
+            function total(n, m){
+                let sum = 0;
+                for(let i = n; i<=m; i++){
+                    if(isPrime(i)){
+                        sum += i;
+                    }
+                }
+                return sum;
+            }
+
+            function main(){
+                let n = enterNumber();
+                let m = enterNumber();
+                document.write('Total prime number from ' + n + ' to ' + m + ' = ' + total(n,m));
+            }
+
+            main();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,88 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+            class Car{
+                constructor(color, model){
+                    this.color = color;
+                    this.model  = model;
+                }
+                // constructor(color){
+                //     this.color = color;
+                // }
+                // constructor(){
+
+                // }
+                //setter
+                setColor(c) {
+                    this.color = c;
+                }
+
+                //getter
+                getColor(){
+                    return this.color;
+                }
+                setModel(m){
+                    this.model = m;
+                }
+                getModel(){
+                    return this.model;
+                }
+
+                static price(){
+                    return "2000$";
+                }
+            }
+            
+            class Animal{
+                constructor(name){
+                    this.name = name;
+                }
+
+                speak(){
+                    return "name is " + this.name;
+                }
+            }
+
+            class Dog extends Animal{
+                constructor(name, sound){
+                    super(name);
+                    this.sound = sound;
+                }
+
+                info(){
+                    return "name is " + this.name + " and sound is " + this.sound;
+                }
+
+                //overidding
+                speak(){
+                    //return "name is " + this.name + " and sound is " + this.sound;
+                    return super.speak() + " and sound is " + this.sound;
+                }
+            }
+
+            class Father{
+                constructor(ln){
+                    this.lastName = ln;
+                }
+                getLastName(){
+                    return "My lastname is " + this.lastName;
+                }
+            }
+            
+            class Son extends Father{
+                constructor(ln, fn){
+                    super(ln);
+                    this.firstName = fn;
+                }
+                getFullName(){
+                    return super.getLastName() + " and firstname is " + this.firstName;
+                }
+
+                getLastName(){
+                    return "My fullname is " + this.firstName + " " + this.lastName;
+                }
+            }
+        </script>
+    </body>
+</html>

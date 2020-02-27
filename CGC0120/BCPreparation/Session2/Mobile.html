@@ -1,0 +1,39 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+            function Mobile(n, b){
+                this.name = n;
+                this.battery = b;
+                this.sent = [];
+                this.inbox = [];
+
+                this.useBattery = function(){
+                    this.battery -= 1;
+                }
+                this.send = function(msg, phone){
+                    this.sent.push(msg);
+                    phone.inbox.push(msg);
+                    this.useBattery();
+                }
+            }
+
+            class Phone{
+                constructor(n, b){
+                    this.name = n;
+                    this.battery = b;
+                    this.sent = [];
+                    this.inbox = [];
+                }
+                useBattery(){
+                    this.battery -= 1;
+                }
+                send(msg, mobile){
+                    this.sent.push(msg);
+                    mobile.inbox.push(msg);
+                    this.useBattery();
+                }
+            }
+        </script>
+    </body>
+</html>
