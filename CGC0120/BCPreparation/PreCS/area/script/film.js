@@ -2,7 +2,7 @@ var film = {} || film;
 
 film.drawTable = function(){
     $.ajax({
-        url : "http://localhost:3000/films",
+        url : "https://precs0102db.herokuapp.com/films",
         method : "GET",
         dataType : "json",
         success : function(data){
@@ -40,7 +40,7 @@ film.save = function(){
             filmObj.shortDesc = $('#ShortDesc').val();
     
             $.ajax({
-                url : "http://localhost:3000/films",
+                url : "https://precs0102db.herokuapp.com/films",
                 method : "POST",
                 dataType : "json",
                 contentType : 'application/json',
@@ -59,7 +59,7 @@ film.save = function(){
             filmObj.id = $('#id').val();
     
             $.ajax({
-                url : "http://localhost:3000/films/" + filmObj.id,
+                url : "https://precs0102db.herokuapp.com/films/" + filmObj.id,
                 method : "PUT",
                 dataType : "json",
                 contentType : 'application/json',
@@ -90,7 +90,7 @@ film.delete = function(id){
         callback: function (result) {
             if(result){
                 $.ajax({
-                    url : "http://localhost:3000/films/" + id,
+                    url : "https://precs0102db.herokuapp.com/films/" + id,
                     method : "DELETE",
                     dataType : "json",
                     contentType : 'application/json',
@@ -105,7 +105,7 @@ film.delete = function(id){
 
 film.getDetail = function(id){
     $.ajax({
-        url : "http://localhost:3000/films/" + id,
+        url : "https://precs0102db.herokuapp.com/films/" + id,
         method : "GET",
         dataType : "json",
         success : function(data){
@@ -143,4 +143,15 @@ film.init = function(){
 
 $(document).ready(function(){
     film.init();
+});
+$(document).on({
+    ajaxStart: function () {
+        $(".loader").show();
+    },
+    ajaxStop: function () {
+        $(".loader").hide();
+    },
+    ajaxError: function () {
+        $(".loader").hide();
+    }
 });

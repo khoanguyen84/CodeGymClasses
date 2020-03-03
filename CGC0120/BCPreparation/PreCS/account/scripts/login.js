@@ -6,7 +6,7 @@ user.login = function(){
         let pass = $('#inputPassword').val();
         let author = false;
         $.ajax({
-            url:'http://localhost:3000/users',
+            url:'https://precs0102db.herokuapp.com/users',
             method : 'GET',
             dataType : 'json',
             success : function(data){
@@ -28,4 +28,17 @@ user.init = function(){
 }
 
 $(document).ready(function(){
+    
+});
+
+$(document).on({
+    ajaxStart: function () {
+        $(".loader").show();
+    },
+    ajaxStop: function () {
+        $(".loader").hide();
+    },
+    ajaxError: function () {
+        $(".loader").hide();
+    }
 });

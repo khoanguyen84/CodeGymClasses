@@ -12,10 +12,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.15/css/dataTables.jqueryui.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="site.css">
 </head>
 
 <body>
+    <div class="loader"></div>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
@@ -43,7 +44,9 @@
     <div class="container">
         <!-- Jumbotron Header -->
         <header class="jumbotron my-4 py-0 px-0">
-            <img src="images/thumnail1.jpg" style="width: 100%; height: 400px;">
+            <img class="slideshow" src="images/thumnail1.jpg" style="width: 100%; height: 350px;">
+            <img class="slideshow" src="images/thumnail2.jpg" style="width: 100%; height: 350px;">
+            <img class="slideshow" src="images/thumnail3.jpg" style="width: 100%; height: 350px;">
         </header>
 
         <!-- Page Features -->
@@ -91,7 +94,7 @@
                 <div class="card h-100">
                     <img class="card-img-top" src="images/b4.jpg" alt="">
                     <div class="card-body">
-                        <h4 class="card-title">Phần 3 - Harry Poster và chiếc cốc lửa</h4>
+                        <h4 class="card-title">Phần 4 - Harry Poster và chiếc cốc lửa</h4>
                         <p class="card-text">Khi giải Quidditch Thế giới bị cắt ngang bởi những kẻ ủng hộ Chúa tể Voldemort và sự trở lại của Dấu hiệu hắc ám khủng khiếp, Harry ý thức được rõ ràng rằng, Chúa tể Voldemort đang ngày càng mạnh hơn. Và để trở lại thế giới phép thuật, Chúa tể hắc ám cần phải đánh bại kẻ duy nhất sống sót từ lời nguyền chết chóc của hắn - Harry Potter. Vì lẽ đó, khi Harry bị buộc phải bước vào giải đấu Tam Pháp thuật uy tín nhưng nguy hiểm, cậu nhận ra rằng trên cả chiến thắng, cậu phải giữ được mạng sống của mình.</p>
                     </div>
                     <div class="card-footer">
@@ -120,6 +123,7 @@
     <script type="text/javascript" src="https://cdn.datatables.net/1.10.15/js/dataTables.jqueryui.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.4.0/bootbox.js"></script>
+    <script src="site.js"></script>
     <script src="scripts/home.js"></script>
 </body>
 

@@ -1,8 +1,9 @@
 var home = {} || home;
+var slideIndex = 0;
 
 home.load = function(){
     $.ajax({
-        url:'http://localhost:3000/films',
+        url:'https://precs0102db.herokuapp.com/films',
         method : 'GET',
         dataType : 'json',
         success : function(data){
