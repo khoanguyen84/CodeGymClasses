@@ -1,0 +1,38 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "fullName": "Khoa Nguyễn",
+      "gender": "male",
+      "dob": "01/01/2000"
+    },
+    {
+      "id": 3,
+      "fullName": "Tôn Thất Anh Minh",
+      "gender": "male",
+      "dob": "02/02/2000"
+    },
+    {
+      "id": 4,
+      "fullName": "Quang Nguyễn",
+      "gender": "male",
+      "dob": "02/02/2000"
+    },
+    {
+      "id": 5,
+      "fullName": "Trâm Nguyễn",
+      "gender": "male",
+      "dob": "02/02/2000"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "name": "BC Net Core"
+    },
+    {
+      "id": 2,
+      "name": "BC Java"
+    }
+  ]
+}
