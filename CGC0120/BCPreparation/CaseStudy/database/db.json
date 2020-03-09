@@ -1,28 +1,40 @@
 {
   "students": [
     {
-      "id": 1,
-      "fullName": "Khoa Nguyễn",
-      "gender": "male",
-      "dob": "01/01/2000"
-    },
-    {
       "id": 3,
       "fullName": "Tôn Thất Anh Minh",
       "gender": "male",
-      "dob": "02/02/2000"
+      "dob": "2020-03-12"
     },
     {
       "id": 4,
       "fullName": "Quang Nguyễn",
       "gender": "male",
-      "dob": "02/02/2000"
+      "dob": "2020-03-12"
     },
     {
       "id": 5,
       "fullName": "Trâm Nguyễn",
       "gender": "male",
-      "dob": "02/02/2000"
+      "dob": "2020-03-12"
+    },
+    {
+      "fullName": "Trung Nguyễn",
+      "gender": "Male",
+      "dob": "2020-03-07",
+      "id": 6
+    },
+    {
+      "fullName": "Ghi Nguyễn",
+      "gender": "Female",
+      "dob": "2020-03-12",
+      "id": 7
+    },
+    {
+      "fullName": "Hoàng Phan",
+      "gender": "Male",
+      "dob": "2020-03-07",
+      "id": 8
     }
   ],
   "courses": [

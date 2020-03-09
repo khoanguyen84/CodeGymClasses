@@ -4,6 +4,7 @@
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="libs/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="libs/node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/site.css">
 </head>
 
 <body>
@@ -38,38 +39,44 @@
 
                     <!-- Modal body -->
                     <div class="modal-body">
-                        <div class="row form-group">
-                            <div class="col-3">
-                                <label class="">FullName</label>
+                        <form id="formAddEditStudent">
+                            <div class="row form-group">
+                                <div class="col-3">
+                                    <label class="">FullName</label>
+                                </div>
+                                <div class="col-9">
+                                    <input type="text" class="form-control" id="FullName" name="FullName"
+                                        data-rule-required="true" 
+                                        data-msg-required="Fullname is required">
+                                </div>
                             </div>
-                            <div class="col-9">
-                                <input type="text" class="form-control">
+                            <div class="row form-group">
+                                <div class="col-3">
+                                    <label class="">Gender</label>
+                                </div>
+                                <div class="col-9">
+                                    <select class="form-control" id="Gender" name="Gender">
+                                        <option value="1">Male</option>
+                                        <option value="0">Female</option>
+                                    </select>
+                                </div>
                             </div>
-                        </div>
-                        <div class="row form-group">
-                            <div class="col-3">
-                                <label class="">Gender</label>
+                            <div class="row form-group">
+                                <div class="col-3">
+                                    <label class="">Date of Birth</label>
+                                </div>
+                                <div class="col-9">
+                                    <input type="date" class="form-control" id="DOB" name="DOB"
+                                    data-rule-date="true" 
+                                    data-msg-date="Data is not correct format">
+                                </div>
                             </div>
-                            <div class="col-9">
-                                <select class="form-control">
-                                    <option value="1">Male</option>
-                                    <option value="0">Female</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="row form-group">
-                            <div class="col-3">
-                                <label class="">Date of Birth</label>
-                            </div>
-                            <div class="col-9">
-                                <input type="date" class="form-control">
-                            </div>
-                        </div>
+                        </form>
                     </div>
 
                     <!-- Modal footer -->
                     <div class="modal-footer">
-                        <a href="javascript:void(0);" class="btn btn-primary">Save</a>
+                        <a href="javascript:void(0);" class="btn btn-primary" onclick="student.save()">Save</a>
                         <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                     </div>
 
@@ -83,6 +90,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
     <script src="libs/node_modules/jquery/dist/jquery.min.js"></script>
     <script src="libs/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="libs/node_modules/bootbox/dist/bootbox.min.js"></script>
     <script src="libs/node_modules/bootbox/dist/bootbox.min.js"></script>
     <script src="scripts/student.js"></script>
 </body>
