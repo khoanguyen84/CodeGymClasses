@@ -9,3 +9,5 @@ C:\CodeGym\Classes\CGC0120\CShape\Bai2\obj\Debug\netcoreapp3.1\Bai2.AssemblyInfo
 C:\CodeGym\Classes\CGC0120\CShape\Bai2\obj\Debug\netcoreapp3.1\Bai2.AssemblyInfo.cs
 C:\CodeGym\Classes\CGC0120\CShape\Bai2\obj\Debug\netcoreapp3.1\Bai2.dll
 C:\CodeGym\Classes\CGC0120\CShape\Bai2\obj\Debug\netcoreapp3.1\Bai2.pdb
+C:\CodeGym\Classes\CGC0120\CShape\Bai2\obj\Debug\netcoreapp3.1\Bai2.csproj.CoreCompileInputs.cache
+C:\CodeGym\Classes\CGC0120\CShape\Bai2\obj\Debug\netcoreapp3.1\Bai2.genruntimeconfig.cache

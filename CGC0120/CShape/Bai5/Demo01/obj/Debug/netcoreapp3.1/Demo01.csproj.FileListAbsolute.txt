@@ -1,0 +1,13 @@
+C:\CodeGym\Classes\CGC0120\CShape\Bai5\Demo01\bin\Debug\netcoreapp3.1\Demo01.exe
+C:\CodeGym\Classes\CGC0120\CShape\Bai5\Demo01\bin\Debug\netcoreapp3.1\Demo01.deps.json
+C:\CodeGym\Classes\CGC0120\CShape\Bai5\Demo01\bin\Debug\netcoreapp3.1\Demo01.runtimeconfig.json
+C:\CodeGym\Classes\CGC0120\CShape\Bai5\Demo01\bin\Debug\netcoreapp3.1\Demo01.runtimeconfig.dev.json
+C:\CodeGym\Classes\CGC0120\CShape\Bai5\Demo01\bin\Debug\netcoreapp3.1\Demo01.dll
+C:\CodeGym\Classes\CGC0120\CShape\Bai5\Demo01\bin\Debug\netcoreapp3.1\Demo01.pdb
+C:\CodeGym\Classes\CGC0120\CShape\Bai5\Demo01\obj\Debug\netcoreapp3.1\Demo01.csprojAssemblyReference.cache
+C:\CodeGym\Classes\CGC0120\CShape\Bai5\Demo01\obj\Debug\netcoreapp3.1\Demo01.csproj.CoreCompileInputs.cache
+C:\CodeGym\Classes\CGC0120\CShape\Bai5\Demo01\obj\Debug\netcoreapp3.1\Demo01.AssemblyInfoInputs.cache
+C:\CodeGym\Classes\CGC0120\CShape\Bai5\Demo01\obj\Debug\netcoreapp3.1\Demo01.AssemblyInfo.cs
+C:\CodeGym\Classes\CGC0120\CShape\Bai5\Demo01\obj\Debug\netcoreapp3.1\Demo01.dll
+C:\CodeGym\Classes\CGC0120\CShape\Bai5\Demo01\obj\Debug\netcoreapp3.1\Demo01.pdb
+C:\CodeGym\Classes\CGC0120\CShape\Bai5\Demo01\obj\Debug\netcoreapp3.1\Demo01.genruntimeconfig.cache

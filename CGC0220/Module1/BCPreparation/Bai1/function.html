@@ -15,6 +15,7 @@
                 let col = enterNumber();
                 let matrix = generateMatrix(row, col);
                 let pinter = printMatrix(matrix, row, col);
+                console.log(row);
                 let total = totalMatrix(matrix, row, col);
                 document.write(pinter);
                 document.write(total);
@@ -64,9 +65,10 @@
             }
 
             function totalMatrix(matrix){
-                let row = matrix.length;
+                let row1 = matrix.length;
                 let col = matrix[0].length;
                 let total = 0;
+                
                 for(let i=0;i<row;i++){
                     for(let j=0;j <col; j++){
                         total += matrix[i][j];

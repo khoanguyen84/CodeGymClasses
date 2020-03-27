@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CodeGym\\Classes\\CGC0120\\CShape\\Bai2\\Bai2.csproj",
-      "projectName": "Bai2",
-      "projectPath": "C:\\CodeGym\\Classes\\CGC0120\\CShape\\Bai2\\Bai2.csproj",
+      "projectUniqueName": "C:\\CodeGym\\Classes\\CGC0120\\CShape\\Bai4\\Bai4.csproj",
+      "projectName": "Bai4",
+      "projectPath": "C:\\CodeGym\\Classes\\CGC0120\\CShape\\Bai4\\Bai4.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\CodeGym\\Classes\\CGC0120\\CShape\\Bai2\\obj\\",
+      "outputPath": "C:\\CodeGym\\Classes\\CGC0120\\CShape\\Bai4\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
