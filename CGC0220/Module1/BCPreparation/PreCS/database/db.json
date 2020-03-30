@@ -1,0 +1,56 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "IP 6s",
+      "productImage": "imgs/ip6.png",
+      "price": "3,000,000",
+      "manufactory": "Korea",
+      "description": "Korea"
+    },
+    {
+      "id": 2,
+      "productName": "IP 7s",
+      "productImage": "imgs/ip7.jpg",
+      "price": "5,000,000",
+      "manufactory": "Korea",
+      "description": "Korea"
+    },
+    {
+      "productName": "IP 8s",
+      "productImage": "imgs/ip6.png",
+      "price": "9,500,000",
+      "manufactory": "Korea",
+      "description": "Korea",
+      "id": 3
+    },
+    {
+      "productName": "IP Xs",
+      "productImage": "imgs/ip6.png",
+      "price": "18,000,000",
+      "manufactory": "ThaiLand",
+      "description": "ThaiLand",
+      "id": 4
+    },
+    {
+      "productName": "IP 11",
+      "productImage": "imgs/ip6.png",
+      "price": "25,000,000",
+      "manufactory": "Viet Nam",
+      "description": "Viet Nam",
+      "id": 5
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "khoa.nguyen@codegy.vn",
+      "password": "Asdf1234!"
+    },
+    {
+      "id": "2",
+      "username": "khoa.nguyen+1@codegy.vn",
+      "password": "Asdf1234!"
+    }
+  ]
+}

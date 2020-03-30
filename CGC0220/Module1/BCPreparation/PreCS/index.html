@@ -1,8 +1,11 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="libs/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="libs/node_modules/font-awesome/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -12,42 +15,12 @@
             <button class="btn btn-success" type="submit">Search</button>
         </form>
     </nav>
-    <div id="demo" class="carousel slide" data-ride="carousel">
-
-        <!-- Indicators -->
-        <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-        </ul>
-
-        <!-- The slideshow -->
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="imgs/la.jpg" alt="Los Angeles">
-            </div>
-            <div class="carousel-item">
-                <img src="imgs/chicago.jpg" alt="Chicago">
-            </div>
-            <div class="carousel-item">
-                <img src="imgs/ny.jpg" alt="New York">
-            </div>
-        </div>
-
-        <!-- Left and right controls -->
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
-
-    </div>
     <div class="container">
         <h1>Product Management</h1>
         <a href="javascript:void(0);" class="btn btn-outline-primary mb-2" onclick="product.openModal()">Create new Product</a>
 
-        <table class="table table-striped table-bordered table-hover table-dark">
+        <!-- d-none ~ display:none -->
+        <table class="table table-striped table-bordered table-hover table-dark d-none" id="tbProducts"> 
             <thead class="thead-dark">
                 <tr>
                     <th>#ID</th>
@@ -60,33 +33,14 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>IP 6 Plus</td>
-                    <td><img src="imgs/NoImage.png" width="120px" height="150px"></td>
-                    <td>2,000,000</td>
-                    <td>Thailand</td>
-                    <td>Thailand</td>
-                    <td>
-                        <a href="javascript:;" onclick="product.remove();"><i class="fa fa-edit"></i></a> 
-                        <a href="javascript:;" onclick="product.remove();"><i class="fa fa-trash"></i></a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>IP 7 Plus</td>
-                    <td><img src="imgs/NoImage.png" width="120px" height="150px"></td>
-                    <td>5,000,000</td>
-                    <td>Thailand</td>
-                    <td>Thailand</td>
-                    <td>
-                        <a href="javascript:;" onclick="product.remove();" ><i class="fa fa-edit"></i></a> 
-                        <a href="javascript:;" onclick="product.remove();"><i class="fa fa-trash"></i></a>
-                    </td>
-                </tr>
             </tbody>
         </table>
 
+    </div>
+    <div class="container">
+        <div class="row text-center" id="showProducts">
+            
+          </div>
     </div>
     <!-- The Modal -->
     <div class="modal" id="addEditModal">
@@ -160,11 +114,15 @@
         </div>
     </div>
     <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+    <script src="libs/node_modules/jquery/dist/jquery.min.js"></script>
     <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.4.0/bootbox.min.js"></script>
-    <script src="site.js"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> -->
+    <script src="libs/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.4.0/bootbox.min.js"></script> -->
+    <script src="libs/node_modules/bootbox/dist/bootbox.min.js"></script>
+
+    <script src="product.js"></script>
 </body>
 
 </html>
