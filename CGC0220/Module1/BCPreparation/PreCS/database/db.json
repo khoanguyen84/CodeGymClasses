@@ -44,12 +44,12 @@
   "users": [
     {
       "id": "1",
-      "username": "khoa.nguyen@codegy.vn",
+      "username": "khoa.nguyen@codegym.vn",
       "password": "Asdf1234!"
     },
     {
       "id": "2",
-      "username": "khoa.nguyen+1@codegy.vn",
+      "username": "khoa.nguyen+1@codegym.vn",
       "password": "Asdf1234!"
     }
   ]
