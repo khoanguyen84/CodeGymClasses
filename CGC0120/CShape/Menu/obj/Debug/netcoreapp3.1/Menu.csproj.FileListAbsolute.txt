@@ -1,0 +1,13 @@
+C:\CodeGym\Classes\CGC0120\CShape\Menu\bin\Debug\netcoreapp3.1\Menu.exe
+C:\CodeGym\Classes\CGC0120\CShape\Menu\bin\Debug\netcoreapp3.1\Menu.deps.json
+C:\CodeGym\Classes\CGC0120\CShape\Menu\bin\Debug\netcoreapp3.1\Menu.runtimeconfig.json
+C:\CodeGym\Classes\CGC0120\CShape\Menu\bin\Debug\netcoreapp3.1\Menu.runtimeconfig.dev.json
+C:\CodeGym\Classes\CGC0120\CShape\Menu\bin\Debug\netcoreapp3.1\Menu.dll
+C:\CodeGym\Classes\CGC0120\CShape\Menu\bin\Debug\netcoreapp3.1\Menu.pdb
+C:\CodeGym\Classes\CGC0120\CShape\Menu\obj\Debug\netcoreapp3.1\Menu.csprojAssemblyReference.cache
+C:\CodeGym\Classes\CGC0120\CShape\Menu\obj\Debug\netcoreapp3.1\Menu.csproj.CoreCompileInputs.cache
+C:\CodeGym\Classes\CGC0120\CShape\Menu\obj\Debug\netcoreapp3.1\Menu.AssemblyInfoInputs.cache
+C:\CodeGym\Classes\CGC0120\CShape\Menu\obj\Debug\netcoreapp3.1\Menu.AssemblyInfo.cs
+C:\CodeGym\Classes\CGC0120\CShape\Menu\obj\Debug\netcoreapp3.1\Menu.dll
+C:\CodeGym\Classes\CGC0120\CShape\Menu\obj\Debug\netcoreapp3.1\Menu.pdb
+C:\CodeGym\Classes\CGC0120\CShape\Menu\obj\Debug\netcoreapp3.1\Menu.genruntimeconfig.cache
