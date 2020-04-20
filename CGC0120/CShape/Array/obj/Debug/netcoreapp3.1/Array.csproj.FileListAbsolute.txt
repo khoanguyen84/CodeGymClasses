@@ -1,0 +1,13 @@
+C:\CodeGym\Classes\CGC0120\CShape\Array\bin\Debug\netcoreapp3.1\Array.exe
+C:\CodeGym\Classes\CGC0120\CShape\Array\bin\Debug\netcoreapp3.1\Array.deps.json
+C:\CodeGym\Classes\CGC0120\CShape\Array\bin\Debug\netcoreapp3.1\Array.runtimeconfig.json
+C:\CodeGym\Classes\CGC0120\CShape\Array\bin\Debug\netcoreapp3.1\Array.runtimeconfig.dev.json
+C:\CodeGym\Classes\CGC0120\CShape\Array\bin\Debug\netcoreapp3.1\Array.dll
+C:\CodeGym\Classes\CGC0120\CShape\Array\bin\Debug\netcoreapp3.1\Array.pdb
+C:\CodeGym\Classes\CGC0120\CShape\Array\obj\Debug\netcoreapp3.1\Array.csprojAssemblyReference.cache
+C:\CodeGym\Classes\CGC0120\CShape\Array\obj\Debug\netcoreapp3.1\Array.csproj.CoreCompileInputs.cache
+C:\CodeGym\Classes\CGC0120\CShape\Array\obj\Debug\netcoreapp3.1\Array.AssemblyInfoInputs.cache
+C:\CodeGym\Classes\CGC0120\CShape\Array\obj\Debug\netcoreapp3.1\Array.AssemblyInfo.cs
+C:\CodeGym\Classes\CGC0120\CShape\Array\obj\Debug\netcoreapp3.1\Array.dll
+C:\CodeGym\Classes\CGC0120\CShape\Array\obj\Debug\netcoreapp3.1\Array.pdb
+C:\CodeGym\Classes\CGC0120\CShape\Array\obj\Debug\netcoreapp3.1\Array.genruntimeconfig.cache

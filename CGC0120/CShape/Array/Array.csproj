@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <StartupObject>Bai2.Program</StartupObject>
+    <StartupObject>ArrayExample.Array2</StartupObject>
   </PropertyGroup>
 
 </Project>

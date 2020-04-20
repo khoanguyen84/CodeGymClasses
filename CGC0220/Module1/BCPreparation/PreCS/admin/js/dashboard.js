@@ -2,7 +2,7 @@ var dashboard = dashboard || { }
 
 dashboard.drawTable = function(){
     $.ajax({
-        url: "http://localhost:3000/products",
+        url: "http://192.168.1.3:3000/products",
         method: "GET",
         dataType : "json",
         success : function(data){
@@ -48,7 +48,7 @@ dashboard.remove = function(id){
         callback: function (result) {
             if(result){
                 $.ajax({
-                    url : "http://localhost:3000/products/" + id,
+                    url : "http://192.168.1.3:3000/products/" + id,
                     method : "DELETE", //"POST"
                     dataType:'json',
                     success : function(data){
@@ -72,7 +72,7 @@ dashboard.save = function(){
             addObj.description = $('#Description').val();
             
             $.ajax({
-                url : "http://localhost:3000/products",
+                url : "http://192.168.1.3:3000/products",
                 method : "POST",
                 dataType: "json",
                 contentType: "application/json",
@@ -95,7 +95,7 @@ dashboard.save = function(){
             updateObj.id = $('#productId').val();
             
             $.ajax({
-                url : "http://localhost:3000/products/" + updateObj.id,
+                url : "http://192.168.1.3:3000/products/" + updateObj.id,
                 method : "PUT",
                 dataType: "json",
                 contentType: "application/json",
@@ -114,7 +114,7 @@ dashboard.save = function(){
 
 dashboard.productDetail = function(id){
     $.ajax({
-        url : "http://localhost:3000/products/" + id,
+        url : "http://192.168.1.3:3000/products/" + id,
         method: "GET",
         dataType: 'json',
         success : function(data){

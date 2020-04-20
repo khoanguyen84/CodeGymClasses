@@ -2,7 +2,7 @@ var product = product || {};
 
 product.showProduct = function(){
     $.ajax({
-        url: "http://localhost:3000/products",
+        url: "http://192.168.1.3:3000/products",
         method: "GET",
         dataType : "json",
         success : function(data){

@@ -1,13 +1,14 @@
 <html>
-	<body onload="docReady()">
-		<canvas id="myCanvas" width="800px" height="500px" style="border: 1px solid #d3d3d3;">
+
+<body onload="docReady()">
+	<canvas id="myCanvas" width="800px" height="500px" style="border: 1px solid #d3d3d3;">
 		<script>
 			function docReady() {
 				window.addEventListener('keydown', move);
 			}
-			function createCircle(x, y){
+			function createCircle(x, y) {
 				var ctx = document.getElementById("myCanvas").getContext("2d");
-                // ctx.clearRect(0,0,800,500);
+				// ctx.clearRect(0,0,800,500);
 				ctx.beginPath();
 				ctx.arc(x, y, 10, 0, 2 * Math.PI);
 				ctx.fillStyle = "blue";
@@ -34,7 +35,7 @@
 			var circleX = createCircle(ngang, doc);
 			function up() {
 				doc = doc - 5;
-				if (doc < 10) 
+				if (doc < 10)
 					doc = 10;
 				if (doc > 490)
 					doc = 490;
@@ -65,5 +66,13 @@
 				circleX = createCircle(ngang, doc);
 			}
 		</script>
-	</body>
+
+		<script>
+			document.getElementById("demo").innerHTML = 5 + 6;
+			document.write(5 + 6);
+			window.alert(5 + 6);
+			console.log(5 + 6);
+		</script>
+</body>
+
 </html>
