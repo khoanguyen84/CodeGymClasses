@@ -1,0 +1,70 @@
+*{
+    padding: 20px;
+    margin: 50px;
+    /* margin-top:50px
+        margin-right:50px;
+         margin-bottom: 50px;
+         margin-left: 50px;*/
+}
+
+p,h3{
+    color: red;
+    background-color: palevioletred;
+    font-weight: bold;
+    line-height: 25px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-indent: 1.27cm;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-shadow: tomato;
+}
+#p1{
+    color: white !important;
+    background-color: green;
+}
+
+.p2{
+    color: yellow !important;
+    background-color: tomato;
+}
+
+body{
+    /* background-color: red;
+    background-image: url("img_tree.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 10px 10px; */
+
+    background: white url("img_tree.png") no-repeat fixed 10px 10px;
+}
+
+h3:hover{
+    color: white !important;
+    background-color: red !important;
+    text-decoration: none;
+    text-align: right;
+    cursor: pointer;
+    border-style: dotted;
+}
+
+.column{
+    width: 150px;
+    height: 300px;
+    border: 1px solid red;
+    float: left;
+}
+
+#footer{
+    width: 150px;
+    height: 300px;
+    border: 1px solid red;
+}
+
+.row:after{
+    clear: both;
+}

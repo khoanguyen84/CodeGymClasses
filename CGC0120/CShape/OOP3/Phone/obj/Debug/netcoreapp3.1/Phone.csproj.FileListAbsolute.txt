@@ -1,0 +1,13 @@
+C:\CodeGym\Classes\CGC0120\CShape\OOP3\Phone\bin\Debug\netcoreapp3.1\Phone.exe
+C:\CodeGym\Classes\CGC0120\CShape\OOP3\Phone\bin\Debug\netcoreapp3.1\Phone.deps.json
+C:\CodeGym\Classes\CGC0120\CShape\OOP3\Phone\bin\Debug\netcoreapp3.1\Phone.runtimeconfig.json
+C:\CodeGym\Classes\CGC0120\CShape\OOP3\Phone\bin\Debug\netcoreapp3.1\Phone.runtimeconfig.dev.json
+C:\CodeGym\Classes\CGC0120\CShape\OOP3\Phone\bin\Debug\netcoreapp3.1\Phone.dll
+C:\CodeGym\Classes\CGC0120\CShape\OOP3\Phone\bin\Debug\netcoreapp3.1\Phone.pdb
+C:\CodeGym\Classes\CGC0120\CShape\OOP3\Phone\obj\Debug\netcoreapp3.1\Phone.csprojAssemblyReference.cache
+C:\CodeGym\Classes\CGC0120\CShape\OOP3\Phone\obj\Debug\netcoreapp3.1\Phone.csproj.CoreCompileInputs.cache
+C:\CodeGym\Classes\CGC0120\CShape\OOP3\Phone\obj\Debug\netcoreapp3.1\Phone.AssemblyInfoInputs.cache
+C:\CodeGym\Classes\CGC0120\CShape\OOP3\Phone\obj\Debug\netcoreapp3.1\Phone.AssemblyInfo.cs
+C:\CodeGym\Classes\CGC0120\CShape\OOP3\Phone\obj\Debug\netcoreapp3.1\Phone.dll
+C:\CodeGym\Classes\CGC0120\CShape\OOP3\Phone\obj\Debug\netcoreapp3.1\Phone.pdb
+C:\CodeGym\Classes\CGC0120\CShape\OOP3\Phone\obj\Debug\netcoreapp3.1\Phone.genruntimeconfig.cache
