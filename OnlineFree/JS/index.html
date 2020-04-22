@@ -1,0 +1,113 @@
+<html>
+
+<head>
+    <script src="myScript.js"></script>
+</head>
+
+<body>
+    <img src="images/lightoff.gif" id="light" style="display: none;">
+    <button onclick="batDen()">Bật Đèn</button>
+    <button onclick="tatDen()">Tắt Đèn</button>
+    <button onclick="thaoDen()">Tháo Đèn</button>
+    <button onclick="lapDen()">Lắp Đèn</button>
+
+    <p id="msg"></p>
+
+    <script>
+        function batDen() {
+            document.getElementById('light').src = 'images/lighton.gif';
+        }
+        function tatDen() {
+            document.getElementById('light').src = 'images/lightoff.gif';
+        }
+        // debugger;
+        document.getElementById("msg").innerHTML = "Chào mừng các bạn học WF";
+        document.write("Hoàn toàn miễn phí");
+        // window.alert("Học trong 5 buổi");
+        console.log("Cảm ơn các bạn!");
+        let x;
+        x = 10;
+        //x += ++x;
+        // if (x % 2 == 0)
+        //     alert(x + " là số chẵn");
+        // else {
+        //     alert(x + " là số lẻ");
+        // }
+        // x += 1 ~ x = x + 1;
+        // ++x ~ x thăng thêm 1
+        // alert(typeof(x));
+        let str = "CodeGym Huế";
+        // alert(typeof(str));
+        let c = 'W';
+        // alert(typeof(c));
+
+        let str2 = "CodeGym";
+        let str3 = "Huế";
+        let str4 = str2 + " " + str3;
+        document.write(str4);
+
+        // let ngay = +prompt('Nhập ngày');
+        // debugger;
+        // switch(ngay){
+        //     case 2:{
+        //         alert("Thứ hai");
+        //         break;
+        //     }
+        //     case 3:{
+        //         alert("Thứ ba");
+        //         break;
+        //     }
+        //     case 4:{
+        //         alert("Thứ tư");
+        //         break;
+        //     }
+        //     case 5:{
+        //         alert("Thứ năm");
+        //         break;
+        //     }
+        //     case 6:{
+        //         alert("Thứ sáu");
+        //         break;
+        //     }
+        //     case 7:{
+        //         alert("Thứ bảy");
+        //         break;
+        //     }
+        //     case 8:{
+        //         alert("Chủ nhật");
+        //         break;
+        //     }
+        //     default:{
+        //         alert('ngày không hợp lệ');
+        //     }
+
+        //     for(let i = 0; i<10; i++){
+        //         document.write(i + "<br>");
+        //     }
+        // }
+        // for (let i = 0; i < 10; i++) {
+        //     document.write("<br>" + (i+1));
+        // }
+
+        // let j = 0;
+        // while(j<10){
+        //     document.write("<br>" + (j+1));
+        //     j+=1;
+        // }
+
+        // let k = 0;
+        // do{
+        //     k++;
+        //     document.write("<br>" + (k));
+        // }
+        // while(k<10)
+
+        function sum(a, b){
+            return a + b;
+        }
+
+        alert(sum(20,30));
+    </script>
+</body>
+
+</html>
