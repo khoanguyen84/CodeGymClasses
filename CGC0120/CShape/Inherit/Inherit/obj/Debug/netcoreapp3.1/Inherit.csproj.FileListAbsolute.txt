@@ -1,0 +1,13 @@
+C:\CodeGym\Classes\CGC0120\CShape\Inherit\Inherit\bin\Debug\netcoreapp3.1\Inherit.exe
+C:\CodeGym\Classes\CGC0120\CShape\Inherit\Inherit\bin\Debug\netcoreapp3.1\Inherit.deps.json
+C:\CodeGym\Classes\CGC0120\CShape\Inherit\Inherit\bin\Debug\netcoreapp3.1\Inherit.runtimeconfig.json
+C:\CodeGym\Classes\CGC0120\CShape\Inherit\Inherit\bin\Debug\netcoreapp3.1\Inherit.runtimeconfig.dev.json
+C:\CodeGym\Classes\CGC0120\CShape\Inherit\Inherit\bin\Debug\netcoreapp3.1\Inherit.dll
+C:\CodeGym\Classes\CGC0120\CShape\Inherit\Inherit\bin\Debug\netcoreapp3.1\Inherit.pdb
+C:\CodeGym\Classes\CGC0120\CShape\Inherit\Inherit\obj\Debug\netcoreapp3.1\Inherit.csprojAssemblyReference.cache
+C:\CodeGym\Classes\CGC0120\CShape\Inherit\Inherit\obj\Debug\netcoreapp3.1\Inherit.csproj.CoreCompileInputs.cache
+C:\CodeGym\Classes\CGC0120\CShape\Inherit\Inherit\obj\Debug\netcoreapp3.1\Inherit.AssemblyInfoInputs.cache
+C:\CodeGym\Classes\CGC0120\CShape\Inherit\Inherit\obj\Debug\netcoreapp3.1\Inherit.AssemblyInfo.cs
+C:\CodeGym\Classes\CGC0120\CShape\Inherit\Inherit\obj\Debug\netcoreapp3.1\Inherit.dll
+C:\CodeGym\Classes\CGC0120\CShape\Inherit\Inherit\obj\Debug\netcoreapp3.1\Inherit.pdb
+C:\CodeGym\Classes\CGC0120\CShape\Inherit\Inherit\obj\Debug\netcoreapp3.1\Inherit.genruntimeconfig.cache

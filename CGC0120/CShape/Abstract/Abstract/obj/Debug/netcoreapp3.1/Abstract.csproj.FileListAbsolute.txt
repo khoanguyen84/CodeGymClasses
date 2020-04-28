@@ -1,0 +1,13 @@
+C:\CodeGym\Classes\CGC0120\CShape\Abstract\Abstract\bin\Debug\netcoreapp3.1\Abstract.exe
+C:\CodeGym\Classes\CGC0120\CShape\Abstract\Abstract\bin\Debug\netcoreapp3.1\Abstract.deps.json
+C:\CodeGym\Classes\CGC0120\CShape\Abstract\Abstract\bin\Debug\netcoreapp3.1\Abstract.runtimeconfig.json
+C:\CodeGym\Classes\CGC0120\CShape\Abstract\Abstract\bin\Debug\netcoreapp3.1\Abstract.runtimeconfig.dev.json
+C:\CodeGym\Classes\CGC0120\CShape\Abstract\Abstract\bin\Debug\netcoreapp3.1\Abstract.dll
+C:\CodeGym\Classes\CGC0120\CShape\Abstract\Abstract\bin\Debug\netcoreapp3.1\Abstract.pdb
+C:\CodeGym\Classes\CGC0120\CShape\Abstract\Abstract\obj\Debug\netcoreapp3.1\Abstract.csprojAssemblyReference.cache
+C:\CodeGym\Classes\CGC0120\CShape\Abstract\Abstract\obj\Debug\netcoreapp3.1\Abstract.csproj.CoreCompileInputs.cache
+C:\CodeGym\Classes\CGC0120\CShape\Abstract\Abstract\obj\Debug\netcoreapp3.1\Abstract.AssemblyInfoInputs.cache
+C:\CodeGym\Classes\CGC0120\CShape\Abstract\Abstract\obj\Debug\netcoreapp3.1\Abstract.AssemblyInfo.cs
+C:\CodeGym\Classes\CGC0120\CShape\Abstract\Abstract\obj\Debug\netcoreapp3.1\Abstract.dll
+C:\CodeGym\Classes\CGC0120\CShape\Abstract\Abstract\obj\Debug\netcoreapp3.1\Abstract.pdb
+C:\CodeGym\Classes\CGC0120\CShape\Abstract\Abstract\obj\Debug\netcoreapp3.1\Abstract.genruntimeconfig.cache
