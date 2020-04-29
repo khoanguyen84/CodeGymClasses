@@ -1,9 +1,12 @@
 ﻿using System;
+using System.ComponentModel;
 
 namespace Menu
 {
     class Program
     {
+        public const char additionOperand = '+';
+        public const char subtractOperand = '-';
         public static void Main(string[] args)
         {
             CreateMenu();
@@ -36,19 +39,19 @@ namespace Menu
             Console.Clear();
             switch(opt){
                 case 1:{
-                    Calculator('+');
+                    Calculator(Operator.Addition);
                     break;
                 }
                 case 2:{
-                    Calculator('-');
+                    Calculator(Operator.Subtract);
                     break;
                 }
                 case 3:{
-                    Calculator('x');
+                    Calculator(Operator.Multiple);
                     break;
                 }
                 case 4:{
-                    Calculator('/');
+                    Calculator(Operator.Divide);
                     break;
                 }
                 case 5:{
@@ -87,29 +90,29 @@ namespace Menu
         //     ShowResult(a, b, '/');
         // }
 
-        public static void Calculator(char operation){
+        public static void Calculator(Operator operation){
             float a = EnterFloat();
             float b = EnterFloat();
 
             switch(operation){
-                case '+':
+                case Operator.Addition:
                 {
-                    ShowResult(a, b, '+');
+                    ShowResult(a, b, Operator.Addition);
                     break;
                 }
-                case '-':
+                case Operator.Subtract:
                 {
-                    ShowResult(a, b, '-');
+                    ShowResult(a, b, Operator.Subtract);
                     break;
                 }
-                case 'x':
+                case Operator.Multiple:
                 {
-                    ShowResult(a, b, 'x');
+                    ShowResult(a, b, Operator.Multiple);
                     break;
                 }
-                case '/':
+                case Operator.Divide:
                 {
-                    ShowResult(a, b, '/');
+                    ShowResult(a, b, Operator.Divide);
                     break;
                 }
             }
@@ -122,22 +125,22 @@ namespace Menu
             return a;
         }
 
-        public static void ShowResult(float a, float b, char operation){
+        public static void ShowResult(float a, float b, Operator operation){
             Console.WriteLine("---------- Result ----------");
             switch(operation){
-                case '+':{
+                case Operator.Addition:{
                     Console.WriteLine("{0} + {1} = {2}", a, b, (a+b));
                     break;
                 }
-                case '-':{
+                case Operator.Subtract:{
                     Console.WriteLine("{0} - {1} = {2}", a, b, (a-b));
                     break;
                 }
-                case 'x':{
+                case Operator.Multiple:{
                     Console.WriteLine("{0} x {1} = {2}", a, b, (a*b));
                     break;
                 }
-                case '/':{
+                case Operator.Divide:{
                     if(b != 0){
                         Console.WriteLine("{0} : {1} = {2}", a, b, (a/b));
                     }
@@ -148,6 +151,26 @@ namespace Menu
                 }
             }
             Console.WriteLine("----------------------------");
+        }
+    }
+
+    public enum Operator{
+        [Description("Phép cộng")]
+        Addition = '+',
+        Subtract = '-',
+        Multiple = '*',
+        Divide = '/'
+    }
+
+    public struct Operand
+    {
+        public char Addition { get; set; }
+        public char Subtract { get; set; }
+        public char Muliple { get; set; }
+        public char Division { get; set; }
+
+        public string Display(){
+            return $"";
         }
     }
 }
