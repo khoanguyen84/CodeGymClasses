@@ -1,0 +1,13 @@
+C:\CodeGym\Classes\CGC0120\CShape\ListDemo\ListDemo\bin\Debug\netcoreapp3.1\ListDemo.exe
+C:\CodeGym\Classes\CGC0120\CShape\ListDemo\ListDemo\bin\Debug\netcoreapp3.1\ListDemo.deps.json
+C:\CodeGym\Classes\CGC0120\CShape\ListDemo\ListDemo\bin\Debug\netcoreapp3.1\ListDemo.runtimeconfig.json
+C:\CodeGym\Classes\CGC0120\CShape\ListDemo\ListDemo\bin\Debug\netcoreapp3.1\ListDemo.runtimeconfig.dev.json
+C:\CodeGym\Classes\CGC0120\CShape\ListDemo\ListDemo\bin\Debug\netcoreapp3.1\ListDemo.dll
+C:\CodeGym\Classes\CGC0120\CShape\ListDemo\ListDemo\bin\Debug\netcoreapp3.1\ListDemo.pdb
+C:\CodeGym\Classes\CGC0120\CShape\ListDemo\ListDemo\obj\Debug\netcoreapp3.1\ListDemo.csprojAssemblyReference.cache
+C:\CodeGym\Classes\CGC0120\CShape\ListDemo\ListDemo\obj\Debug\netcoreapp3.1\ListDemo.csproj.CoreCompileInputs.cache
+C:\CodeGym\Classes\CGC0120\CShape\ListDemo\ListDemo\obj\Debug\netcoreapp3.1\ListDemo.AssemblyInfoInputs.cache
+C:\CodeGym\Classes\CGC0120\CShape\ListDemo\ListDemo\obj\Debug\netcoreapp3.1\ListDemo.AssemblyInfo.cs
+C:\CodeGym\Classes\CGC0120\CShape\ListDemo\ListDemo\obj\Debug\netcoreapp3.1\ListDemo.dll
+C:\CodeGym\Classes\CGC0120\CShape\ListDemo\ListDemo\obj\Debug\netcoreapp3.1\ListDemo.pdb
+C:\CodeGym\Classes\CGC0120\CShape\ListDemo\ListDemo\obj\Debug\netcoreapp3.1\ListDemo.genruntimeconfig.cache

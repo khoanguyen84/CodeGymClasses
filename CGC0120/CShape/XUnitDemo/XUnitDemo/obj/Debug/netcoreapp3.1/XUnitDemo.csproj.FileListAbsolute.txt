@@ -1,0 +1,13 @@
+C:\CodeGym\Classes\CGC0120\CShape\XUnitDemo\XUnitDemo\bin\Debug\netcoreapp3.1\XUnitDemo.exe
+C:\CodeGym\Classes\CGC0120\CShape\XUnitDemo\XUnitDemo\bin\Debug\netcoreapp3.1\XUnitDemo.deps.json
+C:\CodeGym\Classes\CGC0120\CShape\XUnitDemo\XUnitDemo\bin\Debug\netcoreapp3.1\XUnitDemo.runtimeconfig.json
+C:\CodeGym\Classes\CGC0120\CShape\XUnitDemo\XUnitDemo\bin\Debug\netcoreapp3.1\XUnitDemo.runtimeconfig.dev.json
+C:\CodeGym\Classes\CGC0120\CShape\XUnitDemo\XUnitDemo\bin\Debug\netcoreapp3.1\XUnitDemo.dll
+C:\CodeGym\Classes\CGC0120\CShape\XUnitDemo\XUnitDemo\bin\Debug\netcoreapp3.1\XUnitDemo.pdb
+C:\CodeGym\Classes\CGC0120\CShape\XUnitDemo\XUnitDemo\obj\Debug\netcoreapp3.1\XUnitDemo.csprojAssemblyReference.cache
+C:\CodeGym\Classes\CGC0120\CShape\XUnitDemo\XUnitDemo\obj\Debug\netcoreapp3.1\XUnitDemo.csproj.CoreCompileInputs.cache
+C:\CodeGym\Classes\CGC0120\CShape\XUnitDemo\XUnitDemo\obj\Debug\netcoreapp3.1\XUnitDemo.AssemblyInfoInputs.cache
+C:\CodeGym\Classes\CGC0120\CShape\XUnitDemo\XUnitDemo\obj\Debug\netcoreapp3.1\XUnitDemo.AssemblyInfo.cs
+C:\CodeGym\Classes\CGC0120\CShape\XUnitDemo\XUnitDemo\obj\Debug\netcoreapp3.1\XUnitDemo.dll
+C:\CodeGym\Classes\CGC0120\CShape\XUnitDemo\XUnitDemo\obj\Debug\netcoreapp3.1\XUnitDemo.pdb
+C:\CodeGym\Classes\CGC0120\CShape\XUnitDemo\XUnitDemo\obj\Debug\netcoreapp3.1\XUnitDemo.genruntimeconfig.cache
