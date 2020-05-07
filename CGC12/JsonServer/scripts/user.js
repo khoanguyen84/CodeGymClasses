@@ -8,18 +8,30 @@ user.drawTable = function(){
         success : function(data){
             $('#tbUser tbody').empty();
             $.each(data, function(index, value){
+                // $('#tbUser tbody').append(
+                //     "<tr>"+
+                //         "<td>"+ value.UserName + "</td>" +
+                //         "<td>" + value.DOB + "</td>" +
+                //         "<td>" +  value.UserMobile + "</td>" +
+                //         "<td>" +  value.UserEmail + "</td>" +
+                //         "<td>" +  value.FaceBookUrl + "</td>" +
+                //         "<td>" + 
+                //             "<a href='javascript:;' onclick=user.getDetail(" + value.id + ")><i class='fa fa-edit'></i></a> " +
+                //             "<a href='javascript:;' onclick=user.delete(" + value.id + ")><i class='fa fa-trash'></i></a>" +
+                //         "</td>" +
+                //     "</tr>");
                 $('#tbUser tbody').append(
-                    "<tr>"+
-                        "<td>"+ value.UserName + "</td>" +
-                        "<td>" + value.DOB + "</td>" +
-                        "<td>" +  value.UserMobile + "</td>" +
-                        "<td>" +  value.UserEmail + "</td>" +
-                        "<td>" +  value.FaceBookUrl + "</td>" +
-                        "<td>" + 
-                            "<a href='javascript:;' onclick=user.getDetail(" + value.id + ")><i class='fa fa-edit'></i></a> " +
-                            "<a href='javascript:;' onclick=user.delete(" + value.id + ")><i class='fa fa-trash'></i></a>" +
-                        "</td>" +
-                    "</tr>");
+                    `<tr>
+                        <td>${value.UserName}</td>
+                        <td>${value.DOB}</td>
+                        <td>${value.UserMobile}</td>
+                        <td>${value.UserEmail}</td>
+                        <td>${value.FaceBookUrl}</td>
+                        <td>
+                            <a href='javascript:;' onclick=user.getDetail(${value.id})><i class='fa fa-edit'></i></a>
+                            <a href='javascript:;' onclick=user.delete(${value.id})><i class='fa fa-trash'></i></a>
+                        </td>
+                    </tr>`);
             });
             $('#tbUser').DataTable();
         }
@@ -47,7 +59,7 @@ user.save = function(){
                 dataType: 'json',
                 contentType: 'application/json',
                 success: function (data) {
-                    $('#addEditModel').modal('hide');
+                    $('#addEditUser').modal('hide');
                     user.drawTable();
                 }
             });
@@ -65,7 +77,7 @@ user.save = function(){
                 dataType: 'json',
                 contentType: 'application/json',
                 success: function (data) {
-                    $('#addEditModel').modal('hide');
+                    $('#addEditUser').modal('hide');
                     user.drawTable();
                 }
             });

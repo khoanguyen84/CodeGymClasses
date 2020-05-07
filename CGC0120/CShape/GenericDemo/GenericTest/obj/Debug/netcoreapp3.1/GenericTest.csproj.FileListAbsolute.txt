@@ -1,0 +1,13 @@
+C:\CodeGym\Classes\CGC0120\CShape\GenericDemo\GenericTest\bin\Debug\netcoreapp3.1\GenericTest.exe
+C:\CodeGym\Classes\CGC0120\CShape\GenericDemo\GenericTest\bin\Debug\netcoreapp3.1\GenericTest.deps.json
+C:\CodeGym\Classes\CGC0120\CShape\GenericDemo\GenericTest\bin\Debug\netcoreapp3.1\GenericTest.runtimeconfig.json
+C:\CodeGym\Classes\CGC0120\CShape\GenericDemo\GenericTest\bin\Debug\netcoreapp3.1\GenericTest.runtimeconfig.dev.json
+C:\CodeGym\Classes\CGC0120\CShape\GenericDemo\GenericTest\bin\Debug\netcoreapp3.1\GenericTest.dll
+C:\CodeGym\Classes\CGC0120\CShape\GenericDemo\GenericTest\bin\Debug\netcoreapp3.1\GenericTest.pdb
+C:\CodeGym\Classes\CGC0120\CShape\GenericDemo\GenericTest\obj\Debug\netcoreapp3.1\GenericTest.csprojAssemblyReference.cache
+C:\CodeGym\Classes\CGC0120\CShape\GenericDemo\GenericTest\obj\Debug\netcoreapp3.1\GenericTest.csproj.CoreCompileInputs.cache
+C:\CodeGym\Classes\CGC0120\CShape\GenericDemo\GenericTest\obj\Debug\netcoreapp3.1\GenericTest.AssemblyInfoInputs.cache
+C:\CodeGym\Classes\CGC0120\CShape\GenericDemo\GenericTest\obj\Debug\netcoreapp3.1\GenericTest.AssemblyInfo.cs
+C:\CodeGym\Classes\CGC0120\CShape\GenericDemo\GenericTest\obj\Debug\netcoreapp3.1\GenericTest.dll
+C:\CodeGym\Classes\CGC0120\CShape\GenericDemo\GenericTest\obj\Debug\netcoreapp3.1\GenericTest.pdb
+C:\CodeGym\Classes\CGC0120\CShape\GenericDemo\GenericTest\obj\Debug\netcoreapp3.1\GenericTest.genruntimeconfig.cache
