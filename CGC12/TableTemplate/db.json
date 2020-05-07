@@ -1,0 +1,79 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "UserName": "Khoa Nguyễn",
+      "DOB": "24/08/1984",
+      "UserMobile": "0935216417",
+      "UserEmail": "khoa.nguyen@codegym.vn",
+      "FaceBookUrl": "https://github.com/typicode/json-server"
+    },
+    {
+      "UserName": "Ngọc Nguyễn",
+      "UserMobile": "1234567",
+      "DOB": "10/10/1997",
+      "UserEmail": "ngoc.nguyen@codegym.vn",
+      "FaceBookUrl": "https://github.com/typicode/json-server",
+      "id": 2
+    },
+    {
+      "UserName": "Khanh Lê",
+      "UserMobile": "34534534",
+      "DOB": "10/10/1991",
+      "UserEmail": "khanh.le@codegym.vn",
+      "FaceBookUrl": "https://github.com/typicode/json-server",
+      "id": 3
+    },
+    {
+      "UserName": "Hoàng Phan",
+      "UserMobile": "23554",
+      "DOB": "1/1/1990",
+      "UserEmail": "hoang.phan@codegy.vn",
+      "FaceBookUrl": "https://www.google.com/",
+      "id": 4
+    },
+    {
+      "UserName": "Nam Nam1",
+      "DOB": "10/10/2000",
+      "UserMobile": "113113113",
+      "UserEmail": "nam@nam.com",
+      "FaceBookUrl": "https://nam.com",
+      "id": 5
+    },
+    {
+      "UserName": "Linh Siêu Nhân",
+      "DOB": "10/10/2000",
+      "UserMobile": "123123123",
+      "UserEmail": "linh@sieunhan.com",
+      "FaceBookUrl": "http://linh.com",
+      "id": 6
+    },
+    {
+      "UserName": "1",
+      "DOB": "1",
+      "UserMobile": "1",
+      "UserEmail": "a@a.com",
+      "FaceBookUrl": "https://a.com",
+      "id": 7,
+      "Country": "Việt Nam"
+    },
+    {
+      "UserName": "2",
+      "DOB": "2",
+      "UserMobile": "2",
+      "UserEmail": "b@b.com",
+      "FaceBookUrl": "http://b.com",
+      "id": 8
+    }
+  ],
+  "country": [
+    {
+      "id": 1,
+      "Name": "Việt Nam"
+    },
+    {
+      "id": 2,
+      "Name": "Thái Lan"
+    }
+  ]
+}
