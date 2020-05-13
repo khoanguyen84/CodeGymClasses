@@ -30,21 +30,21 @@ namespace Bai2
             Console.Write("Input number of column:");
             int col = int.Parse(Console.ReadLine());
 
-            int[][] matrix = new int[row][];
-            for(int i = 0; i < row ; i++){
-                int[] arr = new int[col];
-                Random rnd = new Random();
-                for(int j = 0; j< col; j++){
-                    arr[j] = rnd.Next(1,100);
-                }
-                matrix[i] = arr;
-            }
-             for(int i = 0; i < row ; i++){
-                for(int j = 0; j< col; j++){
-                    Console.Write(matrix[i][j] + " ");
-                }
-                Console.WriteLine();
-            }
+            // int[][] matrix = new int[row][];
+            // for(int i = 0; i < row ; i++){
+            //     int[] arr = new int[col];
+            //     Random rnd = new Random();
+            //     for(int j = 0; j< col; j++){
+            //         arr[j] = rnd.Next(1,100);
+            //     }
+            //     matrix[i] = arr;
+            // }
+            //  for(int i = 0; i < row ; i++){
+            //     for(int j = 0; j< col; j++){
+            //         Console.Write(matrix[i][j] + " ");
+            //     }
+            //     Console.WriteLine();
+            // }
 
             int[,] matrix1 = new int[row, col];
             for(int i = 0; i < row ; i++){
@@ -53,6 +53,7 @@ namespace Bai2
                     matrix1[i,j] = rnd.Next(1,100);
                 }
             }
+
             for(int i = 0; i < row ; i++){
                 for(int j = 0; j< col; j++){
                     Console.Write(matrix1[i,j] + " ");
@@ -60,8 +61,46 @@ namespace Bai2
                 Console.WriteLine();
             }
 
-            int[][] a = new int[2][]{new int[]{1,2,3}, new int[]{1,2,3}};
-            int [,] b = {{1,2,3},{1,2,3}};
+            // int[][] a = new int[2][]{new int[]{1,2,3}, new int[]{1,2,3}};
+            // int [,] b = {{1,2,3},{1,2,3}};
+
+            int max = 0;
+            int pos = 0;
+            for(int i=0; i < row; i++)
+            {
+                int[] a = new int[col];
+                for(int j = 0; j < col; j++){
+                    a[j] = matrix1[i,j];
+                }
+                int sum = SumArray(a);
+                Console.WriteLine(sum);
+                if(sum > max){
+                    max = sum;
+                    pos = i;
+                }               
+            }
+
+            for(int j= 0 ; j< col; j++){
+                Console.Write(matrix1[pos,j] + " ");
+            }
+        }
+
+        static int SumArray(int[] arr){
+            int total = 0;
+            for(int i= 0; i< arr.Length; i++){
+                total += arr[i];
+            }
+            return total;
+        }
+    }
+
+    interface IPost{
+        string ToString();
+    }
+
+    class Post : IPost{
+        public override string ToString(){
+            return "a";
         }
     }
 }

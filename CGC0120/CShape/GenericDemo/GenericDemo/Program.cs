@@ -81,6 +81,19 @@ namespace GenericDemo
             {
                 Console.WriteLine(item.ToString());
             }
+
+            IndexerDemo<Employee> demo = new IndexerDemo<Employee>();
+            demo[0] = new Employee()
+            {
+                EmployeeId = 1,
+                Name = "Khoa"
+            };
+
+            demo.Add(new Employee()
+            {
+                Name = "Khoa",
+                EmployeeId = 2
+            });
         }
     }
 
@@ -97,11 +110,6 @@ namespace GenericDemo
         public override bool Equals(object obj)
         {
             return EmployeeId == ((Employee)obj).EmployeeId && Name == ((Employee)obj).Name;
-        }
-
-        public override int GetHashCode()
-        {
-            return RealNum
         }
     }
 }

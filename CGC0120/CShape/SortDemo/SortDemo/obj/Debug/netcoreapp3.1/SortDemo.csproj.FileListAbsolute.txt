@@ -1,0 +1,13 @@
+C:\CodeGym\Classes\CGC0120\CShape\SortDemo\SortDemo\bin\Debug\netcoreapp3.1\SortDemo.exe
+C:\CodeGym\Classes\CGC0120\CShape\SortDemo\SortDemo\bin\Debug\netcoreapp3.1\SortDemo.deps.json
+C:\CodeGym\Classes\CGC0120\CShape\SortDemo\SortDemo\bin\Debug\netcoreapp3.1\SortDemo.runtimeconfig.json
+C:\CodeGym\Classes\CGC0120\CShape\SortDemo\SortDemo\bin\Debug\netcoreapp3.1\SortDemo.runtimeconfig.dev.json
+C:\CodeGym\Classes\CGC0120\CShape\SortDemo\SortDemo\bin\Debug\netcoreapp3.1\SortDemo.dll
+C:\CodeGym\Classes\CGC0120\CShape\SortDemo\SortDemo\bin\Debug\netcoreapp3.1\SortDemo.pdb
+C:\CodeGym\Classes\CGC0120\CShape\SortDemo\SortDemo\obj\Debug\netcoreapp3.1\SortDemo.csprojAssemblyReference.cache
+C:\CodeGym\Classes\CGC0120\CShape\SortDemo\SortDemo\obj\Debug\netcoreapp3.1\SortDemo.csproj.CoreCompileInputs.cache
+C:\CodeGym\Classes\CGC0120\CShape\SortDemo\SortDemo\obj\Debug\netcoreapp3.1\SortDemo.AssemblyInfoInputs.cache
+C:\CodeGym\Classes\CGC0120\CShape\SortDemo\SortDemo\obj\Debug\netcoreapp3.1\SortDemo.AssemblyInfo.cs
+C:\CodeGym\Classes\CGC0120\CShape\SortDemo\SortDemo\obj\Debug\netcoreapp3.1\SortDemo.dll
+C:\CodeGym\Classes\CGC0120\CShape\SortDemo\SortDemo\obj\Debug\netcoreapp3.1\SortDemo.pdb
+C:\CodeGym\Classes\CGC0120\CShape\SortDemo\SortDemo\obj\Debug\netcoreapp3.1\SortDemo.genruntimeconfig.cache
