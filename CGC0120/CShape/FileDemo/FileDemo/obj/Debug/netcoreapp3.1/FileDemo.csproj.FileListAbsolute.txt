@@ -1,0 +1,13 @@
+C:\CodeGym\Classes\CGC0120\CShape\FileDemo\FileDemo\bin\Debug\netcoreapp3.1\FileDemo.exe
+C:\CodeGym\Classes\CGC0120\CShape\FileDemo\FileDemo\bin\Debug\netcoreapp3.1\FileDemo.deps.json
+C:\CodeGym\Classes\CGC0120\CShape\FileDemo\FileDemo\bin\Debug\netcoreapp3.1\FileDemo.runtimeconfig.json
+C:\CodeGym\Classes\CGC0120\CShape\FileDemo\FileDemo\bin\Debug\netcoreapp3.1\FileDemo.runtimeconfig.dev.json
+C:\CodeGym\Classes\CGC0120\CShape\FileDemo\FileDemo\bin\Debug\netcoreapp3.1\FileDemo.dll
+C:\CodeGym\Classes\CGC0120\CShape\FileDemo\FileDemo\bin\Debug\netcoreapp3.1\FileDemo.pdb
+C:\CodeGym\Classes\CGC0120\CShape\FileDemo\FileDemo\obj\Debug\netcoreapp3.1\FileDemo.csprojAssemblyReference.cache
+C:\CodeGym\Classes\CGC0120\CShape\FileDemo\FileDemo\obj\Debug\netcoreapp3.1\FileDemo.csproj.CoreCompileInputs.cache
+C:\CodeGym\Classes\CGC0120\CShape\FileDemo\FileDemo\obj\Debug\netcoreapp3.1\FileDemo.AssemblyInfoInputs.cache
+C:\CodeGym\Classes\CGC0120\CShape\FileDemo\FileDemo\obj\Debug\netcoreapp3.1\FileDemo.AssemblyInfo.cs
+C:\CodeGym\Classes\CGC0120\CShape\FileDemo\FileDemo\obj\Debug\netcoreapp3.1\FileDemo.dll
+C:\CodeGym\Classes\CGC0120\CShape\FileDemo\FileDemo\obj\Debug\netcoreapp3.1\FileDemo.pdb
+C:\CodeGym\Classes\CGC0120\CShape\FileDemo\FileDemo\obj\Debug\netcoreapp3.1\FileDemo.genruntimeconfig.cache
