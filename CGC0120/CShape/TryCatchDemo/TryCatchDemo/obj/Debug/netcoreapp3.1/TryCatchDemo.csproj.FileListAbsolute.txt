@@ -5,9 +5,11 @@ C:\CodeGym\Classes\CGC0120\CShape\TryCatchDemo\TryCatchDemo\bin\Debug\netcoreapp
 C:\CodeGym\Classes\CGC0120\CShape\TryCatchDemo\TryCatchDemo\bin\Debug\netcoreapp3.1\TryCatchDemo.dll
 C:\CodeGym\Classes\CGC0120\CShape\TryCatchDemo\TryCatchDemo\bin\Debug\netcoreapp3.1\TryCatchDemo.pdb
 C:\CodeGym\Classes\CGC0120\CShape\TryCatchDemo\TryCatchDemo\obj\Debug\netcoreapp3.1\TryCatchDemo.csprojAssemblyReference.cache
-C:\CodeGym\Classes\CGC0120\CShape\TryCatchDemo\TryCatchDemo\obj\Debug\netcoreapp3.1\TryCatchDemo.csproj.CoreCompileInputs.cache
 C:\CodeGym\Classes\CGC0120\CShape\TryCatchDemo\TryCatchDemo\obj\Debug\netcoreapp3.1\TryCatchDemo.AssemblyInfoInputs.cache
 C:\CodeGym\Classes\CGC0120\CShape\TryCatchDemo\TryCatchDemo\obj\Debug\netcoreapp3.1\TryCatchDemo.AssemblyInfo.cs
 C:\CodeGym\Classes\CGC0120\CShape\TryCatchDemo\TryCatchDemo\obj\Debug\netcoreapp3.1\TryCatchDemo.dll
 C:\CodeGym\Classes\CGC0120\CShape\TryCatchDemo\TryCatchDemo\obj\Debug\netcoreapp3.1\TryCatchDemo.pdb
 C:\CodeGym\Classes\CGC0120\CShape\TryCatchDemo\TryCatchDemo\obj\Debug\netcoreapp3.1\TryCatchDemo.genruntimeconfig.cache
+C:\CodeGym\Classes\CGC0120\CShape\TryCatchDemo\TryCatchDemo\obj\Debug\netcoreapp3.1\TryCatchDemo.csproj.CoreCompileInputs.cache
+C:\CodeGym\Classes\CGC0120\CShape\TryCatchDemo\TryCatchDemo\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\CodeGym\Classes\CGC0120\CShape\TryCatchDemo\TryCatchDemo\obj\Debug\netcoreapp3.1\TryCatchDemo.csproj.CopyComplete

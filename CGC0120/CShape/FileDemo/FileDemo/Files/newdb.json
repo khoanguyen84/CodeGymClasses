@@ -1,0 +1,23 @@
+{
+   "films":[
+      {
+         "id":1,
+         "poster":"abd",
+         "title":"def",
+         "shortDesc":"fgfgd"
+      },
+      {
+         "id":2,
+         "poster":"abd",
+         "title":"def",
+         "shortDesc":"fgfgd"
+      }
+   ],
+   "users":[
+      {
+         "id":1,
+         "email":"sf@sdgdf.com",
+         "password":"w4545"
+      }
+   ]
+}

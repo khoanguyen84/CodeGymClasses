@@ -1,13 +1,23 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <StartupObject>FileDemo.MatrixIODemo</StartupObject>
+    <StartupObject>FileDemo.JsonDemo</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="A\**" />
+    <EmbeddedResource Remove="A\**" />
+    <None Remove="A\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Files\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
 
 </Project>

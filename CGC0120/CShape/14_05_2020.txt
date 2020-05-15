@@ -1,0 +1,6 @@
+Hello
+Everyone at C0220
+We are learning NET CORE
+We are one
+Write by FileInfo
+Write by FileStream
