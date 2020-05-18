@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CodeGym\\Classes\\CGC0120\\CShape\\CollectionDemo\\CollectionDemo\\CollectionDemo.csproj": {}
+    "C:\\CodeGym\\Classes\\CGC0120\\CShape\\JsonDemo\\JsonDemo\\JsonDemo.csproj": {}
   },
   "projects": {
-    "C:\\CodeGym\\Classes\\CGC0120\\CShape\\CollectionDemo\\CollectionDemo\\CollectionDemo.csproj": {
+    "C:\\CodeGym\\Classes\\CGC0120\\CShape\\JsonDemo\\JsonDemo\\JsonDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CodeGym\\Classes\\CGC0120\\CShape\\CollectionDemo\\CollectionDemo\\CollectionDemo.csproj",
-        "projectName": "CollectionDemo",
-        "projectPath": "C:\\CodeGym\\Classes\\CGC0120\\CShape\\CollectionDemo\\CollectionDemo\\CollectionDemo.csproj",
+        "projectUniqueName": "C:\\CodeGym\\Classes\\CGC0120\\CShape\\JsonDemo\\JsonDemo\\JsonDemo.csproj",
+        "projectName": "JsonDemo",
+        "projectPath": "C:\\CodeGym\\Classes\\CGC0120\\CShape\\JsonDemo\\JsonDemo\\JsonDemo.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\CodeGym\\Classes\\CGC0120\\CShape\\CollectionDemo\\CollectionDemo\\obj\\",
+        "outputPath": "C:\\CodeGym\\Classes\\CGC0120\\CShape\\JsonDemo\\JsonDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -42,6 +42,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

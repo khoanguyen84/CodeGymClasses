@@ -1,0 +1,44 @@
+{
+   "students":[
+      {
+         "id":1,
+         "fullName":"Minh Tôn",
+         "gender":"true",
+         "level":"12",
+		 "subjects" : [
+			{
+				"name" : "Toán",
+				"score": "8.2"
+			},
+			{
+				"name" : "Lý",
+				"score": "6.2"
+			},
+			{
+				"name" : "Hóa",
+				"score": "7.2"
+			}
+		 ]
+      },
+      {
+         "id":2,
+         "fullName":"Ghi Nguyễn",
+         "gender":"false",
+         "level":"12",
+		 "subjects" : [
+			{
+				"name" : "Toán",
+				"score": "8.5"
+			},
+			{
+				"name" : "Lý",
+				"score": "6.7"
+			},
+			{
+				"name" : "Hóa",
+				"score": "7.4"
+			}
+		 ]
+      }
+   ]
+}
