@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Employee>
+@{
+    ViewBag.Title = "Employee list";
+    var filePath = "images/nonavatar.png";
+}
+
+<div class="row">
+    @foreach (var emp in Model)
+    {
+        filePath = emp.AvatarPath ?? "images/nonavatar.png";
+        <div class="col-sm-3">
+            <div class="card my-2">
+                <div class="card-header">
+                    <h3>@emp.Name</h3>
+                </div>
+                <img src="@Url.Content("~/"+filePath)" class="card-img-top" />
+                <div class="card-footer text-center">
+                    <a asp-controller="Home" asp-action="Details" asp-route-id="@emp.Id" class="btn btn-info">View</a>
+                    <a asp-controller="Home" asp-action="Edit" class="btn btn-primary">Edit</a>
+                    <a href="#" class="btn btn-danger">Delete</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

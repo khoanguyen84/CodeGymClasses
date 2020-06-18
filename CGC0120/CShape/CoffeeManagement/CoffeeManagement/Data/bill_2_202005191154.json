@@ -1,0 +1,26 @@
+{
+  "tableNo": "2",
+  "starttime": "11:51 AM 19/05/2020",
+  "endtime": "11:54 AM 19/05/2020",
+  "total": "117000",
+  "orderdetails": [
+    {
+      "name": "Milk coffee",
+      "count": "2",
+      "price": "15000",
+      "money": "30000"
+    },
+    {
+      "name": "Lemon fruit",
+      "count": "3",
+      "price": "20000",
+      "money": "60000"
+    },
+    {
+      "name": "Coca",
+      "count": "3",
+      "price": "9000",
+      "money": "27000"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+C:\CodeGym\Classes\CGC0120\CShape\CoffeeManagement\CoffeeManagement\bin\Debug\netcoreapp3.1\CoffeeManagement.exe
+C:\CodeGym\Classes\CGC0120\CShape\CoffeeManagement\CoffeeManagement\obj\Debug\netcoreapp3.1\CoffeeManagement.csprojAssemblyReference.cache
+C:\CodeGym\Classes\CGC0120\CShape\CoffeeManagement\CoffeeManagement\obj\Debug\netcoreapp3.1\CoffeeManagement.AssemblyInfoInputs.cache
+C:\CodeGym\Classes\CGC0120\CShape\CoffeeManagement\CoffeeManagement\obj\Debug\netcoreapp3.1\CoffeeManagement.AssemblyInfo.cs
+C:\CodeGym\Classes\CGC0120\CShape\CoffeeManagement\CoffeeManagement\bin\Debug\netcoreapp3.1\CoffeeManagement.deps.json
+C:\CodeGym\Classes\CGC0120\CShape\CoffeeManagement\CoffeeManagement\bin\Debug\netcoreapp3.1\CoffeeManagement.runtimeconfig.json
+C:\CodeGym\Classes\CGC0120\CShape\CoffeeManagement\CoffeeManagement\bin\Debug\netcoreapp3.1\CoffeeManagement.runtimeconfig.dev.json
+C:\CodeGym\Classes\CGC0120\CShape\CoffeeManagement\CoffeeManagement\bin\Debug\netcoreapp3.1\CoffeeManagement.dll
+C:\CodeGym\Classes\CGC0120\CShape\CoffeeManagement\CoffeeManagement\bin\Debug\netcoreapp3.1\CoffeeManagement.pdb
+C:\CodeGym\Classes\CGC0120\CShape\CoffeeManagement\CoffeeManagement\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\CodeGym\Classes\CGC0120\CShape\CoffeeManagement\CoffeeManagement\obj\Debug\netcoreapp3.1\CoffeeManagement.csproj.CoreCompileInputs.cache
+C:\CodeGym\Classes\CGC0120\CShape\CoffeeManagement\CoffeeManagement\obj\Debug\netcoreapp3.1\CoffeeManagement.csproj.CopyComplete
+C:\CodeGym\Classes\CGC0120\CShape\CoffeeManagement\CoffeeManagement\obj\Debug\netcoreapp3.1\CoffeeManagement.dll
+C:\CodeGym\Classes\CGC0120\CShape\CoffeeManagement\CoffeeManagement\obj\Debug\netcoreapp3.1\CoffeeManagement.pdb
+C:\CodeGym\Classes\CGC0120\CShape\CoffeeManagement\CoffeeManagement\obj\Debug\netcoreapp3.1\CoffeeManagement.genruntimeconfig.cache

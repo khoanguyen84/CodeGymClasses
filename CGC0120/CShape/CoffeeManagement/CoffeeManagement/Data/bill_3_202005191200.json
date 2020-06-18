@@ -1,0 +1,26 @@
+{
+  "tableNo": "3",
+  "starttime": "11:59 AM 19/05/2020",
+  "endtime": "12:00 PM 19/05/2020",
+  "total": "70000",
+  "orderdetails": [
+    {
+      "name": "Pepsi",
+      "count": "2",
+      "price": "10000",
+      "money": "20000"
+    },
+    {
+      "name": "Coca",
+      "count": "3",
+      "price": "10000",
+      "money": "30000"
+    },
+    {
+      "name": "Black Coffee",
+      "count": "2",
+      "price": "10000",
+      "money": "20000"
+    }
+  ]
+}

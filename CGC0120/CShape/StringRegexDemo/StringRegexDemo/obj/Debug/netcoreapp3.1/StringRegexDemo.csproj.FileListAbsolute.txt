@@ -1,0 +1,13 @@
+C:\CodeGym\Classes\CGC0120\CShape\StringRegexDemo\StringRegexDemo\bin\Debug\netcoreapp3.1\StringRegexDemo.exe
+C:\CodeGym\Classes\CGC0120\CShape\StringRegexDemo\StringRegexDemo\bin\Debug\netcoreapp3.1\StringRegexDemo.deps.json
+C:\CodeGym\Classes\CGC0120\CShape\StringRegexDemo\StringRegexDemo\bin\Debug\netcoreapp3.1\StringRegexDemo.runtimeconfig.json
+C:\CodeGym\Classes\CGC0120\CShape\StringRegexDemo\StringRegexDemo\bin\Debug\netcoreapp3.1\StringRegexDemo.runtimeconfig.dev.json
+C:\CodeGym\Classes\CGC0120\CShape\StringRegexDemo\StringRegexDemo\bin\Debug\netcoreapp3.1\StringRegexDemo.dll
+C:\CodeGym\Classes\CGC0120\CShape\StringRegexDemo\StringRegexDemo\bin\Debug\netcoreapp3.1\StringRegexDemo.pdb
+C:\CodeGym\Classes\CGC0120\CShape\StringRegexDemo\StringRegexDemo\obj\Debug\netcoreapp3.1\StringRegexDemo.csprojAssemblyReference.cache
+C:\CodeGym\Classes\CGC0120\CShape\StringRegexDemo\StringRegexDemo\obj\Debug\netcoreapp3.1\StringRegexDemo.csproj.CoreCompileInputs.cache
+C:\CodeGym\Classes\CGC0120\CShape\StringRegexDemo\StringRegexDemo\obj\Debug\netcoreapp3.1\StringRegexDemo.AssemblyInfoInputs.cache
+C:\CodeGym\Classes\CGC0120\CShape\StringRegexDemo\StringRegexDemo\obj\Debug\netcoreapp3.1\StringRegexDemo.AssemblyInfo.cs
+C:\CodeGym\Classes\CGC0120\CShape\StringRegexDemo\StringRegexDemo\obj\Debug\netcoreapp3.1\StringRegexDemo.dll
+C:\CodeGym\Classes\CGC0120\CShape\StringRegexDemo\StringRegexDemo\obj\Debug\netcoreapp3.1\StringRegexDemo.pdb
+C:\CodeGym\Classes\CGC0120\CShape\StringRegexDemo\StringRegexDemo\obj\Debug\netcoreapp3.1\StringRegexDemo.genruntimeconfig.cache

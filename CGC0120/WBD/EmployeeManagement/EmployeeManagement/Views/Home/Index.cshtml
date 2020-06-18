@@ -1,0 +1,46 @@
+﻿@*@model IEnumerable<EmployeeManagement.Models.Employee>*@
+@model IEnumerable<Employee>
+@{
+    //Layout = "~/Views/Shared/_layout.cshtml";
+    ViewBag.Title = "Employee List";
+}
+@*@Html.ActionLink("View","Details","Home", new { id = employ.Id})
+    <a href="@Url.Action("Details","Home", new { id = employ.Id })" class="btn btn-primary">View</a>
+    <a href="#" class="btn btn-primary">View</a>*@
+@*<div class="card-deck">
+    @foreach (var employee in Model)
+    {
+        <div class="card m-3">
+            <div class="card-header">
+                <h3>@employee.Name</h3>
+            </div>
+            <img class="card-img-top" src="@Url.Content(employee.AvatarPath)" asp-append-version="true" />
+            <div class="card-footer text-center">
+                <a asp-controller="Home" asp-action="Details" asp-route-id="@employee.Id" class="btn btn-primary m-1">View</a>
+                <a asp-controller="Home" asp-action="Edit" asp-route-id="@employee.Id" class="btn btn-primary m-1">Edit</a>
+
+                <a href="#" class="btn btn-danger m-1">Delete</a>
+            </div>
+        </div>
+    }
+</div>*@
+<div class="row">
+    @foreach (var employee in Model)
+    {
+        var avatarpath = $"~/images/{employee.AvatarPath ?? "nonAvatar.png"}";
+        
+        <div class="col-sm-3">
+            <div class="card my-2">
+                <div class="card-header">
+                    <h3>@employee.Name</h3>
+                </div>
+                <img class="card-img-top imageThumbnail" src="@Url.Content(avatarpath)" asp-append-version="true" />
+                <div class="card-footer text-center">
+                    <a asp-controller="Home" asp-action="Details" asp-route-id="@employee.Id" class="btn btn-primary m-1">View</a>
+                    <a asp-controller="Home" asp-action="Edit" asp-route-id="@employee.Id" class="btn btn-primary m-1">Edit</a>
+                    <a asp-controller="Home" asp-action="Details" asp-route-id="@employee.Id" class="btn btn-danger">Delete</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

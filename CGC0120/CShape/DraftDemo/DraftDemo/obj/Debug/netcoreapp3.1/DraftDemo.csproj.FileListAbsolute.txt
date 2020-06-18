@@ -1,0 +1,15 @@
+C:\CodeGym\Classes\CGC0120\CShape\DraftDemo\DraftDemo\bin\Debug\netcoreapp3.1\DraftDemo.exe
+C:\CodeGym\Classes\CGC0120\CShape\DraftDemo\DraftDemo\bin\Debug\netcoreapp3.1\DraftDemo.deps.json
+C:\CodeGym\Classes\CGC0120\CShape\DraftDemo\DraftDemo\bin\Debug\netcoreapp3.1\DraftDemo.runtimeconfig.json
+C:\CodeGym\Classes\CGC0120\CShape\DraftDemo\DraftDemo\bin\Debug\netcoreapp3.1\DraftDemo.runtimeconfig.dev.json
+C:\CodeGym\Classes\CGC0120\CShape\DraftDemo\DraftDemo\bin\Debug\netcoreapp3.1\DraftDemo.dll
+C:\CodeGym\Classes\CGC0120\CShape\DraftDemo\DraftDemo\bin\Debug\netcoreapp3.1\DraftDemo.pdb
+C:\CodeGym\Classes\CGC0120\CShape\DraftDemo\DraftDemo\obj\Debug\netcoreapp3.1\DraftDemo.csprojAssemblyReference.cache
+C:\CodeGym\Classes\CGC0120\CShape\DraftDemo\DraftDemo\obj\Debug\netcoreapp3.1\DraftDemo.AssemblyInfoInputs.cache
+C:\CodeGym\Classes\CGC0120\CShape\DraftDemo\DraftDemo\obj\Debug\netcoreapp3.1\DraftDemo.AssemblyInfo.cs
+C:\CodeGym\Classes\CGC0120\CShape\DraftDemo\DraftDemo\obj\Debug\netcoreapp3.1\DraftDemo.dll
+C:\CodeGym\Classes\CGC0120\CShape\DraftDemo\DraftDemo\obj\Debug\netcoreapp3.1\DraftDemo.pdb
+C:\CodeGym\Classes\CGC0120\CShape\DraftDemo\DraftDemo\obj\Debug\netcoreapp3.1\DraftDemo.genruntimeconfig.cache
+C:\CodeGym\Classes\CGC0120\CShape\DraftDemo\DraftDemo\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\CodeGym\Classes\CGC0120\CShape\DraftDemo\DraftDemo\obj\Debug\netcoreapp3.1\DraftDemo.csproj.CoreCompileInputs.cache
+C:\CodeGym\Classes\CGC0120\CShape\DraftDemo\DraftDemo\obj\Debug\netcoreapp3.1\DraftDemo.csproj.CopyComplete

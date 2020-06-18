@@ -13,16 +13,11 @@ namespace GenericDemo
         {
             get
             {
-                T tmp;
+                T tmp = default(T);
                 if(index >=0 && index < list.Length)
                 {
                     tmp = list[index];
                 }
-                else
-                {
-                    tmp = default(T);
-                }
-
                 return tmp;
             }
             set

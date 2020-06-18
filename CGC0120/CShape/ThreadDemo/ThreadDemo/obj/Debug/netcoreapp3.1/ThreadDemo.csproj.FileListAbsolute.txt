@@ -1,0 +1,13 @@
+C:\CodeGym\Classes\CGC0120\CShape\ThreadDemo\ThreadDemo\bin\Debug\netcoreapp3.1\ThreadDemo.exe
+C:\CodeGym\Classes\CGC0120\CShape\ThreadDemo\ThreadDemo\bin\Debug\netcoreapp3.1\ThreadDemo.deps.json
+C:\CodeGym\Classes\CGC0120\CShape\ThreadDemo\ThreadDemo\bin\Debug\netcoreapp3.1\ThreadDemo.runtimeconfig.json
+C:\CodeGym\Classes\CGC0120\CShape\ThreadDemo\ThreadDemo\bin\Debug\netcoreapp3.1\ThreadDemo.runtimeconfig.dev.json
+C:\CodeGym\Classes\CGC0120\CShape\ThreadDemo\ThreadDemo\bin\Debug\netcoreapp3.1\ThreadDemo.dll
+C:\CodeGym\Classes\CGC0120\CShape\ThreadDemo\ThreadDemo\bin\Debug\netcoreapp3.1\ThreadDemo.pdb
+C:\CodeGym\Classes\CGC0120\CShape\ThreadDemo\ThreadDemo\obj\Debug\netcoreapp3.1\ThreadDemo.csprojAssemblyReference.cache
+C:\CodeGym\Classes\CGC0120\CShape\ThreadDemo\ThreadDemo\obj\Debug\netcoreapp3.1\ThreadDemo.csproj.CoreCompileInputs.cache
+C:\CodeGym\Classes\CGC0120\CShape\ThreadDemo\ThreadDemo\obj\Debug\netcoreapp3.1\ThreadDemo.AssemblyInfoInputs.cache
+C:\CodeGym\Classes\CGC0120\CShape\ThreadDemo\ThreadDemo\obj\Debug\netcoreapp3.1\ThreadDemo.AssemblyInfo.cs
+C:\CodeGym\Classes\CGC0120\CShape\ThreadDemo\ThreadDemo\obj\Debug\netcoreapp3.1\ThreadDemo.dll
+C:\CodeGym\Classes\CGC0120\CShape\ThreadDemo\ThreadDemo\obj\Debug\netcoreapp3.1\ThreadDemo.pdb
+C:\CodeGym\Classes\CGC0120\CShape\ThreadDemo\ThreadDemo\obj\Debug\netcoreapp3.1\ThreadDemo.genruntimeconfig.cache

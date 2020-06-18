@@ -1,0 +1,19 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "fullName": "khoa nguyen",
+      "gender": true
+    },
+    {
+      "id": 2,
+      "fullName": "khoa nguyen",
+      "gender": true
+    },
+    {
+      "id": 3,
+      "fullName": "khoa nguyen",
+      "gender": true
+    }
+  ]
+}
