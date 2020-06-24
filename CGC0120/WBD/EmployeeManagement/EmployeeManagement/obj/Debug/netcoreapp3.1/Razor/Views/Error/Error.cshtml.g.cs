@@ -23,8 +23,13 @@ using EmployeeManagement.ViewModels;
 
 #line default
 #line hidden
+#line 3 "C:\CodeGym\Classes\CGC0120\WBD\EmployeeManagement\EmployeeManagement\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6f7196773950f16a768dd94c641effd72a7434b9", @"/Views/Error/Error.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"14e8e9f2ff240b2425dd706fb36d46c0e67b9f30", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"08b1be9f13e16f80d035b87d7c309f11368b5bce", @"/Views/_ViewImports.cshtml")]
     public class Views_Error_Error : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Home", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -61,7 +66,7 @@ using EmployeeManagement.ViewModels;
             WriteLiteral("\r\n<div class=\"alert alert-danger mt-2\">\r\n    <h1>An occured while processing  your request. The support team is notified and we are working on the fix.</h1>\r\n    <hr />\r\n    <h5>please contact administrator khoa.nguyen@codeym.vn</h5>\r\n</div>\r\n");
             EndContext();
             BeginContext(297, 83, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6f7196773950f16a768dd94c641effd72a7434b94291", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6f7196773950f16a768dd94c641effd72a7434b94466", async() => {
                 BeginContext(341, 35, true);
                 WriteLiteral("Click here to navigate to home page");
                 EndContext();

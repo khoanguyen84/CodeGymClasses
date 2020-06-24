@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -43,12 +44,22 @@ namespace WBDDemo.Models
 
         public Employee Update(Employee employee)
         {
-            throw new NotImplementedException();
+            var editEmp = Get(employee.Id);
+            editEmp.Name = employee.Name;
+            editEmp.Department = employee.Department;
+            editEmp.Email = employee.Email;
+            return editEmp;
         }
 
         public bool Delete(int id)
         {
-            throw new NotImplementedException();
+            var deleteEmp = Get(id);
+            if(deleteEmp != null)
+            {
+                employees.Remove(deleteEmp);
+                return true;
+            }
+            return false;
         }
 
         public Employee Create(Employee employee)

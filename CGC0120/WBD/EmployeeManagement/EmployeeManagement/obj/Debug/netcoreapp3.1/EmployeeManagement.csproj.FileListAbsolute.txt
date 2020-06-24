@@ -1,8 +1,6 @@
 C:\CodeGym\Classes\CGC0120\WBD\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.csprojAssemblyReference.cache
 C:\CodeGym\Classes\CGC0120\WBD\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.AssemblyInfoInputs.cache
 C:\CodeGym\Classes\CGC0120\WBD\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.AssemblyInfo.cs
-C:\CodeGym\Classes\CGC0120\WBD\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.csproj.CoreCompileInputs.cache
-C:\CodeGym\Classes\CGC0120\WBD\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.MvcApplicationPartsAssemblyInfo.cache
 C:\CodeGym\Classes\CGC0120\WBD\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.TagHelpers.input.cache
 C:\CodeGym\Classes\CGC0120\WBD\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.TagHelpers.output.cache
 C:\CodeGym\Classes\CGC0120\WBD\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.dll
@@ -100,3 +98,11 @@ C:\CodeGym\Classes\CGC0120\WBD\EmployeeManagement\EmployeeManagement\obj\Debug\n
 C:\CodeGym\Classes\CGC0120\WBD\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\NotFound.cshtml.g.cs
 C:\CodeGym\Classes\CGC0120\WBD\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Error\PageNotFound.cshtml.g.cs
 C:\CodeGym\Classes\CGC0120\WBD\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Error\Error.cshtml.g.cs
+C:\CodeGym\Classes\CGC0120\WBD\EmployeeManagement\EmployeeManagement\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\CodeGym\Classes\CGC0120\WBD\EmployeeManagement\EmployeeManagement\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\CodeGym\Classes\CGC0120\WBD\EmployeeManagement\EmployeeManagement\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\CodeGym\Classes\CGC0120\WBD\EmployeeManagement\EmployeeManagement\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\CodeGym\Classes\CGC0120\WBD\EmployeeManagement\EmployeeManagement\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\CodeGym\Classes\CGC0120\WBD\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\CodeGym\Classes\CGC0120\WBD\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.csproj.CoreCompileInputs.cache
+C:\CodeGym\Classes\CGC0120\WBD\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.MvcApplicationPartsAssemblyInfo.cache

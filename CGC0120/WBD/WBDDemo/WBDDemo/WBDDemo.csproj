@@ -4,4 +4,27 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Migrations\20200621143147_InitDb.cs" />
+    <Compile Remove="Migrations\20200621143147_InitDb.Designer.cs" />
+    <Compile Remove="Migrations\20200621145337_AddAddressColumn.cs" />
+    <Compile Remove="Migrations\20200621145337_AddAddressColumn.Designer.cs" />
+    <Compile Remove="Migrations\20200621145424_AddPhoneNumberColumn.cs" />
+    <Compile Remove="Migrations\20200621145424_AddPhoneNumberColumn.Designer.cs" />
+    <Compile Remove="Migrations\20200621145621_AddAddressColumn.cs" />
+    <Compile Remove="Migrations\20200621145621_AddAddressColumn.Designer.cs" />
+    <Compile Remove="Migrations\20200621145640_AddPhoneNumberColumn.cs" />
+    <Compile Remove="Migrations\20200621145640_AddPhoneNumberColumn.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
 </Project>

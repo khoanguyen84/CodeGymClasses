@@ -1,5 +1,6 @@
 ﻿using EmployeeManagement.Models;
 using EmployeeManagement.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -12,6 +13,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeManagement.Controllers
 {
+    [Authorize]
     //[Route("{controller}")]
     public class HomeController : Controller
     {
@@ -24,6 +26,7 @@ namespace EmployeeManagement.Controllers
             webHostEnvironment = _webHostEnvironment;
         }
 
+        [AllowAnonymous]
         //[Route("~/")]
         //[Route("Home")]
         //[Route("Home/Index")]

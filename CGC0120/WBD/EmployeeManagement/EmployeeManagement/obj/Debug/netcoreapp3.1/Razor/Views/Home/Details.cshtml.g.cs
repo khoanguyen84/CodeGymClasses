@@ -23,8 +23,13 @@ using EmployeeManagement.ViewModels;
 
 #line default
 #line hidden
+#line 3 "C:\CodeGym\Classes\CGC0120\WBD\EmployeeManagement\EmployeeManagement\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4ec21c53ebbcf0b5da300142c6f5cc31ed52c205", @"/Views/Home/Details.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"14e8e9f2ff240b2425dd706fb36d46c0e67b9f30", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"08b1be9f13e16f80d035b87d7c309f11368b5bce", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Details : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<HomeDetailsViewModel>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Home", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -118,7 +123,7 @@ WriteAttributeValue("", 486, Url.Content(avatarpath), 486, 24, false);
             WriteLiteral("</h4>\r\n            </div>\r\n            <div class=\"card-footer text-center\">\r\n                ");
             EndContext();
             BeginContext(802, 76, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4ec21c53ebbcf0b5da300142c6f5cc31ed52c2058225", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4ec21c53ebbcf0b5da300142c6f5cc31ed52c2058400", async() => {
                 BeginContext(870, 4, true);
                 WriteLiteral("Back");
                 EndContext();
@@ -143,7 +148,7 @@ WriteAttributeValue("", 486, Url.Content(avatarpath), 486, 24, false);
             WriteLiteral("\r\n                ");
             EndContext();
             BeginContext(896, 110, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4ec21c53ebbcf0b5da300142c6f5cc31ed52c2059899", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4ec21c53ebbcf0b5da300142c6f5cc31ed52c20510074", async() => {
                 BeginContext(998, 4, true);
                 WriteLiteral("Edit");
                 EndContext();
@@ -181,7 +186,7 @@ WriteAttributeValue("", 486, Url.Content(avatarpath), 486, 24, false);
             WriteLiteral("\r\n                ");
             EndContext();
             BeginContext(1024, 112, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4ec21c53ebbcf0b5da300142c6f5cc31ed52c20512579", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4ec21c53ebbcf0b5da300142c6f5cc31ed52c20512755", async() => {
                 BeginContext(1126, 6, true);
                 WriteLiteral("Delete");
                 EndContext();

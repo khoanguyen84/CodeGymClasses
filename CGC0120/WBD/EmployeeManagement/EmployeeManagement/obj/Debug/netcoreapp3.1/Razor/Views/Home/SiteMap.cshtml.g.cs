@@ -23,8 +23,13 @@ using EmployeeManagement.ViewModels;
 
 #line default
 #line hidden
+#line 3 "C:\CodeGym\Classes\CGC0120\WBD\EmployeeManagement\EmployeeManagement\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"abe024338cd290be896371229b6fc313b32a918b", @"/Views/Home/SiteMap.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"14e8e9f2ff240b2425dd706fb36d46c0e67b9f30", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"08b1be9f13e16f80d035b87d7c309f11368b5bce", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_SiteMap : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Employee>
     {
         #line hidden
@@ -57,7 +62,7 @@ using EmployeeManagement.ViewModels;
             WriteLiteral("<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n");
             EndContext();
             BeginContext(109, 36, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abe024338cd290be896371229b6fc313b32a918b3550", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abe024338cd290be896371229b6fc313b32a918b3725", async() => {
                 BeginContext(115, 23, true);
                 WriteLiteral("\r\n    <title></title>\r\n");
                 EndContext();
@@ -77,7 +82,7 @@ using EmployeeManagement.ViewModels;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(147, 216, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abe024338cd290be896371229b6fc313b32a918b4755", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abe024338cd290be896371229b6fc313b32a918b4930", async() => {
                 BeginContext(153, 10, true);
                 WriteLiteral("\r\n    <h3>");
                 EndContext();
